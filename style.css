@@ -1,34 +1,74 @@
+/* Cinematic Styles for the One Piece VR Experience */
+
 body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-family: 'Inter', sans-serif;
-  background: #000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000;
 }
 
-#ui-overlay {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1000;
-  pointer-events: none;
+/* Canvas Optimization */
+canvas.a-canvas {
+    image-rendering: auto; /* Browser default for performance */
 }
 
-#loader {
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: 1px solid #3498db;
-  animation: pulse 2s infinite;
+/* Splash Screen & Overlay Styles */
+#loading-screen {
+    background: radial-gradient(circle at center, #1a2a3a 0%, #0a0e12 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
 }
 
-@keyframes pulse {
-  0% { transform: scale(1); box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); }
-  50% { transform: scale(1.05); box-shadow: 0 0 15px rgba(52, 152, 219, 0.8); }
-  100% { transform: scale(1); box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); }
+#loading-screen h1 {
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px rgba(241, 196, 15, 0.5);
+    margin: 10px 0;
 }
 
-.hidden {
-  display: none;
+#loading-screen p {
+    color: #bdc3c7;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* VR Interface Styles (Displayed in 3D but can be managed here) */
+.vr-label {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+/* Animations for interaction feedback */
+@keyframes pulseGlow {
+    0% { filter: brightness(100%); }
+    50% { filter: brightness(150%); }
+    100% { filter: brightness(100%); }
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+/* Error/Success Notifications */
+#notification-system {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    transform: translateY(200%);
+}
+
+.notif-active {
+    transform: translateY(0);
 }
