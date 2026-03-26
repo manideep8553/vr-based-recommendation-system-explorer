@@ -3,168 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>One Piece VR Island - Cinematic Experience</title>
+  <title>One Piece VR Explorer - 7 Wonders</title>
   
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-  <!-- Environment component for realistic lighting and sky -->
   <script src="https://unpkg.com/aframe-environment-component@1.3.2/dist/aframe-environment-component.min.js"></script>
-  <!-- Physics and extras for ocean/animations -->
   <script src="https://unpkg.com/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
   <script type="module" src="./app.js"></script>
   <link rel="stylesheet" href="style.css">
-  
-  <style>
-    /* Premium Loading Screen */
-    #loading-screen {
-      position: fixed;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: radial-gradient(circle, #2c3e50, #000);
-      color: #f1c40f;
-      display: flex; flex-direction: column;
-      justify-content: center; align-items: center;
-      z-index: 9999;
-      font-family: 'Georgia', serif;
-      transition: opacity 1s ease;
-    }
-    .anchor-logo { font-size: 50px; margin-bottom: 20px; animation: rock 2s infinite ease-in-out; }
-    @keyframes rock { 0%, 100% { transform: rotate(-10deg); } 50% { transform: rotate(10deg); } }
-  </style>
 </head>
 <body>
-  <!-- Cinematic Loader -->
   <div id="loading-screen">
     <div class="anchor-logo">⚓</div>
-    <h1>ARRIVING AT THE GRAND LINE...</h1>
-    <p>Preparing the Island of Wonders</p>
+    <h1>SELECTING YOUR TREASURE...</h1>
   </div>
 
-  <a-scene 
-    cursor="rayOrigin: mouse" 
-    raycaster="objects: .clickable" 
-    renderer="antialias: true; colorManagement: true; physicallyCorrectLights: true; exposure: 1.2"
-    fog="type: exponential; color: #a3d0f7; density: 0.02">
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable">
+    <a-sky color="#24b1ff"></a-sky>
+    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" color="#0077be" material="shader: flat"></a-plane>
+    <a-box id="deck" width="12" height="0.4" depth="12" position="0 -0.2 4" color="#5d4037" material="roughness: 1"></a-box>
 
-    <!-- Assets for better performance -->
-    <a-assets>
-      <img id="wood-tex" src="https://images.unsplash.com/photo-1590424765952-b8923067188b?q=80&w=1000">
-      <img id="sand-tex" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1000">
-    </a-assets>
-
-    <!-- 1. DYNAMIC SKY & ATMOSPHERE -->
-    <a-entity environment="
-      preset: forest; 
-      active: true; 
-      seed: 42; 
-      skyType: gradient; 
-      skyColor: #24b1ff; 
-      horizonColor: #eff9ff; 
-      lightPosition: 0 5 0;
-      fog: 0;
-      dressing: trees; 
-      dressingAmount: 15;
-      dressingColor: #2ecc71;
-      dressingScale: 2;
-      ground: hills;
-      groundTexture: walk;
-      groundColor: #f1c40f;
-      groundColor2: #e67e22;
-    "></a-entity>
-
-    <!-- 2. REALISTIC ANIMATED OCEAN -->
-    <a-ocean 
-      width="200" depth="200" 
-      density="40" speed="2" 
-      color="#0077be" opacity="0.8" 
-      position="0 -0.5 0">
-    </a-ocean>
-
-    <!-- 3. PIRATE DOCK & EXPLORABLE PATHWAY -->
-    <a-entity id="pirate-island" position="0 0 0">
-      
-      <!-- Shoreline Path -->
-      <a-plane id="sand-beach" rotation="-90 0 0" width="40" height="40" position="0 -0.01 0" src="#sand-tex" repeat="10 10"></a-plane>
-
-      <!-- The Main Dock (Wooden Piers) -->
-      <a-entity id="dock-structure" position="0 0 10">
-        <!-- Main Walkway -->
-        <a-box width="3" height="0.4" depth="15" position="0 -0.1 0" src="#wood-tex" repeat="1 5" material="roughness: 1">
-          <!-- Pillar Supports -->
-          <a-cylinder position="1.4 -2 -6" radius="0.2" height="4" color="#3e2723"></a-cylinder>
-          <a-cylinder position="-1.4 -2 -6" radius="0.2" height="4" color="#3e2723"></a-cylinder>
-          <a-cylinder position="1.4 -2 0" radius="0.2" height="4" color="#3e2723"></a-cylinder>
-          <a-cylinder position="-1.4 -2 0" radius="0.2" height="4" color="#3e2723"></a-cylinder>
-        </a-box>
-
-        <!-- Pirate Props (Storytelling) -->
-        <a-entity id="props" position="1.2 0.3 2">
-          <a-box width="0.8" height="0.8" depth="0.8" color="#795548" position="0 0 0"></a-box>
-          <a-box width="0.7" height="0.7" depth="0.7" color="#5d4037" position="0 0.7 0" rotation="0 15 0"></a-box>
-          <a-cylinder radius="0.4" height="1" color="#3e2723" position="-2.5 0 -4" rotation="0 0 10"></a-cylinder>
-        </a-entity>
-      </a-entity>
-
-      <!-- Simple Pirate Ship (Constructed from primitives for performance) -->
-      <a-entity id="mini-ship" position="-10 0 12" rotation="0 45 0" animation="property: position; from: -10 0 12; to: -10 0.1 12; dur: 3000; dir: alternate; loop: true">
-        <a-cone radius-bottom="2" radius-top="4" height="2" rotation="90 0 0" color="#5d4037"></a-cone>
-        <a-box width="2" height="6" depth="0.2" position="0 3 0" color="#3e2723"></a-box> <!-- Mast -->
-        <a-plane width="4" height="3" position="0 4 0.1" color="#FFF" material="side: double" animation="property: rotation; from: 0 -5 0; to: 0 5 0; dur: 2000; dir: alternate; loop: true"></a-plane> <!-- Sail -->
-      </a-entity>
-    </a-entity>
-
-    <!-- 4. PLAYER & CAMERA SYSTEM -->
-    <a-entity id="rig" position="0 1.6 15">
-      <a-camera id="camera" wasd-controls="acceleration: 65" look-controls>
-        <a-cursor color="#f1c40f" opacity="0.8" scale="0.5 0.5 0.5"></a-cursor>
+    <a-entity id="rig" position="0 1.6 8">
+      <a-camera id="camera" wasd-controls look-controls>
+        <a-cursor color="#FFF" opacity="0.6" scale="0.5 0.5 0.5"></a-cursor>
       </a-camera>
     </a-entity>
 
-    <!-- 5. RECOMMENDATION HUB (Integrated into Scene) -->
-    <a-entity id="main-selection-board" position="0 2.5 8" rotation="0 0 0">
-      <a-text value="GRAND LINE TREASURES" align="center" position="0 1.2 0" font="mozillavr" color="#f1c40f" scale="2.5 2.5 2.5"></a-text>
-      
+    <!-- Refined Selection Layout for 7 Categories -->
+    <a-entity id="selection-hub" position="0 2.2 4">
       <a-entity id="categories-grid">
-        <a-entity position="-1.5 0.3 0">
-          <a-box class="clickable" color="#e74c3c" width="1.2" height="0.5" depth="0.1" shadow></a-box>
-          <a-text value="Movies" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <!-- Row 1 -->
+        <a-entity position="-1.5 0.6 0">
+          <a-box class="clickable" color="#e74c3c" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Entertainment" align="center" position="0 0 0.06" scale="0.3"></a-text>
         </a-entity>
-        <a-entity position="0 0.3 0">
-          <a-box class="clickable" color="#3498db" width="1.2" height="0.5" depth="0.1" shadow></a-box>
-          <a-text value="Travel" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="0 0.6 0">
+          <a-box class="clickable" color="#9b59b6" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Games" align="center" position="0 0 0.06" scale="0.3"></a-text>
         </a-entity>
-        <a-entity position="1.5 0.3 0">
-          <a-box class="clickable" color="#f1c40f" width="1.2" height="0.5" depth="0.1" shadow></a-box>
-          <a-text value="Courses" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="1.5 0.6 0">
+          <a-box class="clickable" color="#f1c40f" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Learning / Courses" align="center" position="0 0 0.06" scale="0.25"></a-text>
         </a-entity>
-        <a-entity position="-0.7 -0.5 0">
-          <a-box class="clickable" color="#9b59b6" width="1.2" height="0.5" depth="0.1" shadow></a-box>
-          <a-text value="Games" align="center" position="0 0 0.06" scale="0.4"></a-text>
+
+        <!-- Row 2 -->
+        <a-entity position="-1.5 0 0">
+          <a-box class="clickable" color="#2ecc71" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Products / Shopping" align="center" position="0 0 0.06" scale="0.25"></a-text>
         </a-entity>
-        <a-entity position="0.7 -0.5 0">
-          <a-box class="clickable" color="#2ecc71" width="1.2" height="0.5" depth="0.1" shadow></a-box>
-          <a-text value="Sports" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="0 0 0">
+          <a-box class="clickable" color="#3498db" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Travel / Experiences" align="center" position="0 0 0.06" scale="0.25"></a-text>
+        </a-entity>
+        <a-entity position="1.5 0 0">
+          <a-box class="clickable" color="#e67e22" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="Music" align="center" position="0 0 0.06" scale="0.3"></a-text>
+        </a-entity>
+
+        <!-- Row 3 (Food) -->
+        <a-entity position="0 -0.6 0">
+          <a-box class="clickable" color="#d35400" width="1.2" height="0.4" depth="0.1"></a-box>
+          <a-text value="🍔 Food" align="center" position="0 0 0.06" scale="0.3"></a-text>
         </a-entity>
       </a-entity>
     </a-entity>
 
-    <!-- Results Area -->
-    <a-entity id="reco-container" position="0 1.8 3"></a-entity>
-
-    <!-- Cinematic Lighting -->
-    <a-entity light="type: ambient; color: #FFF; intensity: 0.4"></a-entity>
-    <a-entity light="type: directional; color: #ffd6a5; intensity: 1.2; castShadow: true" position="-1 10 5"></a-entity>
-    <a-entity light="type: point; color: #f1c40f; intensity: 0.8; distance: 10" position="0 2 10"></a-entity>
-
+    <a-entity id="reco-container" position="0 1.8 1"></a-entity>
+    <a-entity light="type: ambient; color: #FFF; intensity: 1"></a-entity>
   </a-scene>
 
   <script>
-    // Hide loader when scene is ready
     document.querySelector('a-scene').addEventListener('loaded', function () {
       setTimeout(() => {
         document.getElementById('loading-screen').style.opacity = '0';
-        setTimeout(() => {
-          document.getElementById('loading-screen').style.display = 'none';
-        }, 1000);
-      }, 1500);
+        setTimeout(() => { document.getElementById('loading-screen').style.display = 'none'; }, 1000);
+      }, 1000);
     });
   </script>
 </body>
