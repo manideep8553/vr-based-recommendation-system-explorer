@@ -1,16 +1,14 @@
 {
   "name": "vr-recommender-webxr",
   "version": "1.0.0",
-  "description": "VR-Based Recommendation System using WebXR and Firebase",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "install": "npm install vite firebase"
+    "build": "npx vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "^5.4.11",
-    "firebase": "^10.9.0"
+    "firebase": "^10.9.0",
+    "vite": "^5.4.11"
   }
 }
