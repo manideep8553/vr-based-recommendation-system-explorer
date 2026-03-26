@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VR Recommendation Explorer</title>
+  
+  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  <script type="module" src="./app.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Clean Scene for Performance -->
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable" background="color: #4fb9ff">
+    
+    <!-- Realistic Tropical Ocean (Hand-built primitives for 100% rendering) -->
+    <!-- The Sky (Gradient replacement) -->
+    <a-sky color="#24b1ff"></a-sky>
+    
+    <!-- The Water (Large Plane with Deep Blue Color) -->
+    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" 
+             color="#0077be" material="shader: flat; opacity: 1">
+    </a-plane>
+
+    <!-- Floating Platform (Ship Deck) -->
+    <a-box id="platform" width="12" height="0.4" depth="12" position="0 -0.2 4" color="#5d4037" material="roughness: 1"></a-box>
+
+    <a-entity id="rig" position="0 1.6 8">
+      <a-camera id="camera" wasd-controls look-controls>
+        <a-cursor color="#FFF" opacity="0.6" scale="0.5 0.5 0.5"></a-cursor>
+      </a-camera>
+    </a-entity>
+
+    <!-- Main Selection Board (Closer to user) -->
+    <a-entity id="selection-hub" position="0 2.2 4">
+      <a-entity id="categories-grid">
+        <!-- Movies (Hot Red) -->
+        <a-entity position="-1.5 0.5 0">
+          <a-box class="clickable" color="#e74c3c" width="1.2" height="0.5" depth="0.1"></a-box>
+          <a-text value="Movies" align="center" position="0 0 0.06" scale="0.45"></a-text>
+        </a-entity>
+        
+        <!-- Travel (Ocean Blue) -->
+        <a-entity position="0 0.5 0">
+          <a-box class="clickable" color="#3498db" width="1.2" height="0.5" depth="0.1"></a-box>
+          <a-text value="Travel" align="center" position="0 0 0.06" scale="0.45"></a-text>
+        </a-entity>
+        
+        <!-- Courses (Golden Yellow) -->
+        <a-entity position="1.5 0.5 0">
+          <a-box class="clickable" color="#f1c40f" width="1.2" height="0.5" depth="0.1"></a-box>
+          <a-text value="Courses" align="center" position="0 0 0.06" scale="0.45"></a-text>
+        </a-entity>
+        
+        <!-- Games (Deep Purple) -->
+        <a-entity position="-0.75 -0.2 0">
+          <a-box class="clickable" color="#9b59b6" width="1.2" height="0.5" depth="0.1"></a-box>
+          <a-text value="Games" align="center" position="0 0 0.06" scale="0.45"></a-text>
+        </a-entity>
+        
+        <!-- Sports (Emerald Green) -->
+        <a-entity position="0.75 -0.2 0">
+          <a-box class="clickable" color="#2ecc71" width="1.2" height="0.5" depth="0.1"></a-box>
+          <a-text value="Sports" align="center" position="0 0 0.06" scale="0.45"></a-text>
+        </a-entity>
+      </a-entity>
+    </a-entity>
+
+    <!-- Recommendation Center (Placed between UI and Camera) -->
+    <a-entity id="reco-container" position="0 1.8 1"></a-entity>
+
+    <!-- Lighting -->
+    <a-entity light="type: ambient; color: #FFF; intensity: 1"></a-entity>
+
+  </a-scene>
+</body>
+</html>
