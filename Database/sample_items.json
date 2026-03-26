@@ -1,35 +1,55 @@
 {
   "items": [
-    /* 1. ENTERTAINMENT */
-    { "title": "One Piece: Film Red", "description": "Action saga of friendship.", "category": "Entertainment", "subCategory": "Anime", "tags": ["action", "adventure"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2E2NzljNWEtMGNiZS00OTA1LWFhOTYtN2U3ZGI4ZTU4YmYyXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_SX300.jpg" },
-    { "title": "Naruto Shippuden", "description": "Believe it!", "category": "Entertainment", "subCategory": "Anime", "tags": ["action", "drama"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg" },
-    { "title": "Inception", "description": "Dream within a dream.", "category": "Entertainment", "subCategory": "Movies", "tags": ["sci-fi", "thriller"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg" },
-    { "title": "RRR", "description": "Fire and Water unite.", "category": "Entertainment", "subCategory": "Movies", "tags": ["action", "drama"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctZDdhNy00ZGE2LWIyM2ItY2Y2NjA4NzZeXkEyXkFqcGdeQXVyNTgxODYzNDI@._V1_SX300.jpg" },
-    { "title": "Stranger Things", "description": "Upside down mystery.", "category": "Entertainment", "subCategory": "Web series", "tags": ["horror", "sci-fi"], "rating": 4.6, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGJlZGU0N2FhZGUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
+    /* --- 1. ENTERTAINMENT --- */
+    { "title": "One Piece: Film Red", "model": "ship", "description": "Action saga of friendship.", "category": "Entertainment", "subCategory": "Anime", "tags": ["action", "adventure"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2E2NzljNWEtMGNiZS00OTA1LWFhOTYtN2U3ZGI4ZTU4YmYyXkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_SX300.jpg" },
+    { "title": "Inception", "model": "cube", "description": "Dream within a dream.", "category": "Entertainment", "subCategory": "Movies", "tags": ["sci-fi", "thriller"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg" },
 
-    /* 2. GAMES */
-    { "title": "Elden Ring", "description": "The ultimate RPG journey.", "category": "Games", "subCategory": "PC games", "tags": ["rpg", "fantasy"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtMWVkOS00YzQ0LWFmN2UtMGRlYmU5ZWRhOWM5XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg" },
-    { "title": "Genshin Impact", "description": "Anime adventure world.", "category": "Games", "subCategory": "Mobile games", "tags": ["anime", "rpg"], "rating": 4.4, "imageUrl": "https://m.media-amazon.com/images/M/MV5BODFlYjI3MjEtZDU3Yy00OTcyLWFlZDYtZWVhYTAzYmE4ZGNlXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg" },
-    { "title": "Beat Saber", "description": "Light saber rhythm game.", "category": "Games", "subCategory": "VR games", "tags": ["music", "action"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNThkOTUwM2EtYWRkMy00ZDJlLTkyY2ItYzE3ZTE0ZWYzYTI4XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg" },
+    /* --- 2. GAMES --- */
+    { "title": "Elden Ring", "model": "sword", "description": "The ultimate RPG journey.", "category": "Games", "subCategory": "PC games", "tags": ["rpg", "fantasy"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtMWVkOS00YzQ0LWFmN2UtMGRlYmU5ZWRhOWM5XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg" },
+    { "title": "Beat Saber", "model": "saber", "description": "Rhythm in VR.", "category": "Games", "subCategory": "VR games", "tags": ["music", "action"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNThkOTUwM2EtYWRkMy00ZDJlLTkyY2ItYzE3ZTE0ZWYzYTI4XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_SX300.jpg" },
 
-    /* 3. LEARNING */
-    { "title": "React Masterclass", "description": "Modern web development.", "category": "Learning / Courses", "subCategory": "Coding courses", "tags": ["coding", "web"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-    { "title": "Cyber Security 101", "description": "Protect the net.", "category": "Learning / Courses", "subCategory": "Tech tutorials", "tags": ["tech", "security"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
+    /* --- 3. LEARNING --- */
+    { "title": "React Masterclass", "model": "laptop", "description": "Modern web development.", "category": "Learning / Courses", "subCategory": "Coding courses", "tags": ["coding", "web"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
 
-    /* 4. PRODUCTS */
-    { "title": "Fujifilm Instax", "description": "Instant photography.", "category": "Products / Shopping", "subCategory": "Gadgets", "tags": ["tech", "photography"], "rating": 4.3, "imageUrl": "https://m.media-amazon.com/images/I/71zEv8+yE1L._AC_SL1500_.jpg" },
-    { "title": "Nike Air Max", "description": "Comfort and style.", "category": "Products / Shopping", "subCategory": "Clothes", "tags": ["fashion"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300" },
+    /* --- 4. PRODUCTS (HIERARCHY FIX) --- */
+    { 
+      "title": "Smart Watch Ultra", 
+      "model": "watch", 
+      "description": "The peak of wearable tech.", 
+      "category": "Products / Shopping", 
+      "subCategory": "Gadgets", 
+      "tags": ["tech", "wearable"], 
+      "rating": 4.7, 
+      "imageUrl": "https://images.unsplash.com/photo-1544117518-2b0417812921?q=80&w=300" 
+    },
+    { 
+      "title": "Vintage Leather Jacket", 
+      "model": "shirt", 
+      "description": "Timeless style and comfort.", 
+      "category": "Products / Shopping", 
+      "subCategory": "Clothes", 
+      "tags": ["fashion", "classic"], 
+      "rating": 4.5, 
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" 
+    },
+    { 
+      "title": "Luxury Sunglasses", 
+      "model": "glass", 
+      "description": "Elegant protection for eyes.", 
+      "category": "Products / Shopping", 
+      "subCategory": "Accessories", 
+      "tags": ["fashion", "luxury"], 
+      "rating": 4.8, 
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" 
+    },
 
-    /* 5. TRAVEL */
-    { "title": "Maldives Overwater", "description": "Luxury sea trip.", "category": "Travel / Experiences", "subCategory": "Tourist places", "tags": ["beach", "sea"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300" },
-    { "title": "Grand Canyon VR", "description": "Breathtaking views.", "category": "Travel / Experiences", "subCategory": "Virtual tours", "tags": ["nature", "adventure"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1615551043360-33de8b5f410c?q=80&w=300" },
+    /* --- 5. TRAVEL --- */
+    { "title": "Maldives Overwater", "model": "island", "description": "Luxury sea trip.", "category": "Travel / Experiences", "subCategory": "Tourist places", "tags": ["beach", "sea"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300" },
 
-    /* 6. MUSIC */
-    { "title": "Global Top 50", "description": "Hottest songs now.", "category": "Music", "subCategory": "Playlists", "tags": ["music", "pop"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Lo-Fi Beats", "description": "Study and relax.", "category": "Music", "subCategory": "Songs", "tags": ["music", "chill"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300" },
+    /* --- 6. MUSIC --- */
+    { "title": "Global Top 50", "model": "disk", "description": "Hottest songs now.", "category": "Music", "subCategory": "Playlists", "tags": ["music", "pop"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
 
-    /* 7. FOOD */
-    { "title": "Sushi Masterclass", "description": "Perfect rolls.", "category": "🍔 Food", "subCategory": "Recipes", "tags": ["food", "cooking"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=300" },
-    { "title": "Classic Pepperoni", "description": "Pizza at its best.", "category": "🍔 Food", "subCategory": "Dishes", "tags": ["food", "tasty"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=300" }
+    /* --- 7. FOOD --- */
+    { "title": "Sushi Masterclass", "model": "fish", "description": "Perfect rolls.", "category": "🍔 Food", "subCategory": "Recipes", "tags": ["food", "cooking"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=300" }
   ]
 }
