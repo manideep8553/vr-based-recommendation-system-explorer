@@ -44,8 +44,8 @@ export async function getRecommendations(category, userTags, subCategory = null)
       }
     });
 
-    // Sort by match count & rating
-    return recommended.sort((a, b) => b.matchCount - a.matchCount || b.rating - a.rating).slice(0, 5);
+    // Sort by match count & rating - Return Top 10 for 360 Circle
+    return recommended.sort((a, b) => b.matchCount - a.matchCount || b.rating - a.rating).slice(0, 10);
   } catch (error) {
     console.error("Firebase Error: ", error);
     return [];

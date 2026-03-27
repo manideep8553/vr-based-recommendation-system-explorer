@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global VR Recommender</title>
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
   <script type="module" src="./app.js"></script>
 </head>
 <body>
@@ -35,30 +36,36 @@
       </a-plane>
 
       <a-entity id="categories-grid">
-        <!-- Movies (WIDE BUTTONS FOR VISIBILITY) -->
-        <a-entity position="-2 0.4 0">
-          <a-box class="clickable" color="#c0392b" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Movies" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        <!-- ROW 1 -->
+        <a-entity position="-3.3 0.5 0">
+          <a-box id="movies-btn" class="clickable" color="#c0392b" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Movies" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="0 0.4 0">
-          <a-box class="clickable" color="#2980b9" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Games" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        <a-entity position="-1.1 0.5 0">
+          <a-box id="games-btn" class="clickable" color="#2980b9" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Games" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="2 0.4 0">
-          <a-box class="clickable" color="#f1c40f" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Courses" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        <a-entity position="1.1 0.5 0">
+          <a-box id="courses-btn" class="clickable" color="#f1c40f" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Courses" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="-1.5 -0.4 0">
-          <a-box class="clickable" color="#27ae60" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Travel" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        <a-entity position="3.3 0.5 0">
+          <a-box id="travel-btn" class="clickable" color="#27ae60" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Travel" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="0 -0.4 0">
-          <a-box class="clickable" color="#8e44ad" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Products" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+
+        <!-- ROW 2 -->
+        <a-entity position="-2.2 -0.5 0">
+          <a-box id="products-btn" class="clickable" color="#8e44ad" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Products" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="1.5 -0.4 0">
-          <a-box class="clickable" color="#d35400" width="1.8" height="0.6" depth="0.1"></a-box>
-          <a-text value="Music" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        <a-entity position="0 -0.5 0">
+          <a-box id="music-btn" class="clickable" color="#d35400" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Music" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
+        </a-entity>
+        <a-entity position="2.2 -0.5 0">
+          <a-box id="food-btn" class="clickable" color="#e74c3c" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Food" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
       </a-entity>
     </a-entity>
