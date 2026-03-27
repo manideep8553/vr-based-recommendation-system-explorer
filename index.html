@@ -6,85 +6,66 @@
   <title>Global VR Recommender</title>
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
   <script type="module" src="./app.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    /* Premium Minimalist Loader */
-    #loading-screen {
-      position: fixed;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: #000;
-      color: #fff;
-      display: flex; flex-direction: column;
-      justify-content: center; align-items: center;
-      z-index: 9999;
-      font-family: sans-serif;
-      transition: opacity 1s ease;
-    }
-  </style>
 </head>
 <body>
-  <div id="loading-screen">
-    <h1>GLOBAL EXPLORER</h1>
-    <p>Loading High Definition Environment...</p>
-  </div>
-
-  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable" background="color: #00BFFF">
-    <!-- SUPER HD OCEAN ENVIRONMENT -->
+  <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable">
     <a-sky color="#0db2ff"></a-sky>
-    <!-- Realistic Blue Water -->
-    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" 
-             color="#006994" material="shader: standard; roughness: 0.1; metalness: 0.6; opacity: 1">
-    </a-plane>
+    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" color="#00BFFF" material="opacity: 0.9; metalness: 0.5"></a-plane>
 
-    <!-- Sleek High-End Deck Platform (Premium Wood) -->
-    <a-box id="deck" width="14" height="0.4" depth="14" position="0 -0.2 4" color="#3e2723" material="roughness: 0.8"></a-box>
+    <!-- STATIC ISLANDS (SAFE FROM CDN FAILURES) -->
+    <a-entity position="-15 -0.4 -20" rotation="0 45 0">
+      <a-cone color="#f1c40f" radius-bottom="20" height="4"></a-cone>
+      <a-cylinder color="#8d6e63" radius="0.4" height="6" position="0 3 0"></a-cylinder>
+      <a-sphere color="#2ecc71" radius="2" position="0 6 0"></a-sphere>
+    </a-entity>
 
-    <a-entity id="rig" position="0 1.6 9">
+    <!-- VIEWING DECK -->
+    <a-box id="deck" width="20" height="0.4" depth="20" position="0 -0.2 6" color="#000" material="metalness: 0.8; roughness: 0.2"></a-box>
+
+    <a-entity id="rig" position="0 1.6 15">
       <a-camera id="camera" wasd-controls look-controls>
-        <a-cursor color="#FFF" opacity="0.6" scale="0.5 0.5 0.5"></a-cursor>
+        <a-cursor color="#FFF" opacity="1" scale="0.6 0.6 0.6"></a-cursor>
       </a-camera>
     </a-entity>
 
     <!-- MAIN DASHBOARD -->
-    <a-entity id="selection-hub" position="0 2.5 4">
-      <a-text value="RECOMMENDATION CENTER" align="center" position="0 1 0" color="#FFF" scale="2"></a-text>
+    <a-entity id="selection-hub" position="0 2.8 5">
+      <a-plane width="8" height="1.2" color="#000" material="opacity: 0.8" position="0 1.5 0">
+        <a-text value="ELITE RECOMMENDATION HUB" align="center" color="#FFF" width="8"></a-text>
+      </a-plane>
+
       <a-entity id="categories-grid">
-        <!-- Row 1 -->
-        <a-entity position="-1.5 0.4 0">
-          <a-box class="clickable" color="#2c3e50" width="1.2" height="0.5" depth="0.1"></a-box>
-          <a-text value="Movies" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <!-- Movies (WIDE BUTTONS FOR VISIBILITY) -->
+        <a-entity position="-2 0.4 0">
+          <a-box class="clickable" color="#c0392b" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Movies" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
         </a-entity>
         <a-entity position="0 0.4 0">
-          <a-box class="clickable" color="#2c3e50" width="1.2" height="0.5" depth="0.1"></a-box>
-          <a-text value="Games" align="center" position="0 0 0.06" scale="0.4"></a-text>
+          <a-box class="clickable" color="#2980b9" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Games" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="1.5 0.4 0">
-          <a-box class="clickable" color="#2c3e50" width="1.2" height="0.5" depth="0.1"></a-box>
-          <a-text value="Courses" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="2 0.4 0">
+          <a-box class="clickable" color="#f1c40f" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Courses" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
         </a-entity>
-        <!-- Row 2 -->
-        <a-entity position="-0.75 -0.3 0">
-          <a-box class="clickable" color="#2c3e50" width="1.2" height="0.5" depth="0.1"></a-box>
-          <a-text value="Travel" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="-1.5 -0.4 0">
+          <a-box class="clickable" color="#27ae60" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Travel" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="0.75 -0.3 0">
-          <a-box class="clickable" color="#2c3e50" width="1.2" height="0.5" depth="0.1"></a-box>
-          <a-text value="Products" align="center" position="0 0 0.06" scale="0.4"></a-text>
+        <a-entity position="0 -0.4 0">
+          <a-box class="clickable" color="#8e44ad" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Products" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
+        </a-entity>
+        <a-entity position="1.5 -0.4 0">
+          <a-box class="clickable" color="#d35400" width="1.8" height="0.6" depth="0.1"></a-box>
+          <a-text value="Music" align="center" position="0 0 0.08" width="5" color="#FFF"></a-text>
         </a-entity>
       </a-entity>
     </a-entity>
 
-    <a-entity id="reco-container" position="0 1.8 1"></a-entity>
-    <a-entity light="type: ambient; color: #FFF; intensity: 1"></a-entity>
+    <a-entity id="reco-container" position="0 2 0"></a-entity>
+    <a-entity light="type: ambient; color: #FFF; intensity: 0.9"></a-entity>
+    <a-entity light="type: directional; color: #FFF; intensity: 1.2" position="-1 10 5"></a-entity>
   </a-scene>
-
-  <script>
-    document.querySelector('a-scene').addEventListener('loaded', function () {
-      setTimeout(() => {
-        document.getElementById('loading-screen').style.opacity = '0';
-        setTimeout(() => { document.getElementById('loading-screen').style.display = 'none'; }, 1000);
-      }, 500);
-    });
-  </script>
 </body>
 </html>
