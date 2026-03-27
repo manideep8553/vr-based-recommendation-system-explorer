@@ -25,6 +25,7 @@ export async function getRecommendations(category, userTags, subCategory = null)
     const itemsRef = collection(db, "items");
     let q;
     
+    // Exact category + subCategory lookup
     if (subCategory) {
       q = query(itemsRef, where("category", "==", category), where("subCategory", "==", subCategory));
     } else {
@@ -32,20 +33,18 @@ export async function getRecommendations(category, userTags, subCategory = null)
     }
 
     const querySnapshot = await getDocs(q);
-
-    let recommended = [];
+    let results = [];
 
     querySnapshot.forEach((doc) => {
       const item = doc.data();
-      // Simple tag intersection
-      const matches = item.tags.filter(tag => userTags.includes(tag));
-      if (matches.length > 0) {
-        recommended.push({ id: doc.id, ...item, matchCount: matches.length });
-      }
+      // SHOW ALL ITEMS in that Category (No restrictive tag filtering)
+      results.push({ id: doc.id, ...item });
     });
 
-    // Sort by match count & rating - Return Top 10 for 360 Circle
-    return recommended.sort((a, b) => b.matchCount - a.matchCount || b.rating - a.rating).slice(0, 10);
+    // Shuffle & Sort by Rating for 360 Immersive Diversity
+    return results.sort(() => 0.5 - Math.random()) // Randomize for fresh discovery
+                 .sort((a,b) => b.rating - a.rating)
+                 .slice(0, 10);
   } catch (error) {
     console.error("Firebase Error: ", error);
     return [];

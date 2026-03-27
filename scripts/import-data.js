@@ -18,20 +18,28 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 async function importData() {
-    console.log("🚀 Starting Elite Data Import...");
+    console.log("🚀 Starting Elite Unique Data Import...");
     
     try {
         const data = JSON.parse(fs.readFileSync('./Database/sample_items.json', 'utf8'));
         const items = data.items;
 
+        // --- 1. CLEAN PREVIOUS DATA ---
+        console.log("🧹 Wiping previous entries to prevent duplicates...");
+        const snapshot = await getDocs(collection(db, "items"));
+        for (const docSnap of snapshot.docs) {
+            await deleteDoc(docSnap.ref);
+        }
+        console.log("✨ Firestore Items Cleaned.");
+
+        // --- 2. UPLOAD FRESH DATA ---
+        const itemsRef = collection(db, "items");
         for (const item of items) {
-            // WE PUSH TO THE MAIN 'items' COLLECTION SO ENGINE.JS CAN QUERY IT
-            const colPath = "items";
-            await addDoc(collection(db, colPath), item);
+            await addDoc(itemsRef, item);
             console.log(`✅ Uploaded: ${item.title} (${item.category} > ${item.subCategory})`);
         }
 
-        console.log("🏁 MISSION COMPLETED: 230+ Items Uploaded.");
+        console.log("🏁 MISSION COMPLETED: 230+ Unique Items Uploaded.");
     } catch (error) {
         console.error("❌ CRITICAL ERROR:", error);
     }
