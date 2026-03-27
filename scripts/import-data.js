@@ -4,12 +4,14 @@ import fs from 'fs';
 
 // --- YOUR FIREBASE CONFIG (FETCHED FROM ENGINE.JS) ---
 const firebaseConfig = {
-    apiKey: "AIzaSyCX-XXXXXXXXXXXX", // This should be your real key
-    authDomain: "virtual-study-room-XXXX.firebaseapp.com",
-    projectId: "virtual-study-room-XXXX",
-    storageBucket: "virtual-study-room-XXXX.appspot.com",
-    messagingSenderId: "XXXXXXXX",
-    appId: "1:XXXXXXX:web:XXXXXXX"
+  apiKey: "AIzaSyB4n9vqZa--xGRnzbqXByPiEqNQzEsTStE",
+  authDomain: "vr-recommendation-system.firebaseapp.com",
+  databaseURL: "https://vr-recommendation-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "vr-recommendation-system",
+  storageBucket: "vr-recommendation-system.firebasestorage.app",
+  messagingSenderId: "185204701885",
+  appId: "1:185204701885:web:6973de453203a8da4295d4",
+  measurementId: "G-Y7RXZKRX9C"
 };
 
 const app = initializeApp(firebaseConfig);
@@ -23,13 +25,13 @@ async function importData() {
         const items = data.items;
 
         for (const item of items) {
-            // WE CREATE NESTED PATHS IN FIRESTORE: Recommendations > Categories > [Category] > [SubCategory]
-            const colPath = `Recommendations/${item.category}/${item.subCategory}`;
+            // WE PUSH TO THE MAIN 'items' COLLECTION SO ENGINE.JS CAN QUERY IT
+            const colPath = "items";
             await addDoc(collection(db, colPath), item);
-            console.log(`✅ Uploaded: ${item.title} to ${colPath}`);
+            console.log(`✅ Uploaded: ${item.title} (${item.category} > ${item.subCategory})`);
         }
 
-        console.log("🏁 MISSION COMPLETED: 60+ Items Uploaded.");
+        console.log("🏁 MISSION COMPLETED: 230+ Items Uploaded.");
     } catch (error) {
         console.error("❌ CRITICAL ERROR:", error);
     }
