@@ -1,22 +1,52 @@
-import { allItems } from './data.js';
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, query, where, getDocs } from "firebase/firestore";
 
-// Elite Zero-Fail Recommender (Zero Latency)
+// --- Configuration Replace this with your own for Firebase! ---
+export const firebaseConfig = {
+
+  apiKey: "AIzaSyB4n9vqZa--xGRnzbqXByPiEqNQzEsTStE",
+  authDomain: "vr-recommendation-system.firebaseapp.com",
+  databaseURL: "https://vr-recommendation-system-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "vr-recommendation-system",
+  storageBucket: "vr-recommendation-system.firebasestorage.app",
+  messagingSenderId: "185204701885",
+  appId: "1:185204701885:web:6973de453203a8da4295d4",
+  measurementId: "G-Y7RXZKRX9C"
+
+};
+
+// Initialize App & DB
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+
+// Simple Content-Based Recommender Logic
 export async function getRecommendations(category, userTags, subCategory = null) {
   try {
-    console.log(`Searching Global Data for: ${category} -> ${subCategory}`);
+    const itemsRef = collection(db, "items");
+    let q;
     
-    // Filter by Category and Sub-Category exactly from embedded JS
-    let filtered = allItems.filter(item => 
-      item.category === category && (subCategory ? item.subCategory === subCategory : true)
-    );
+    // Exact category + subCategory lookup
+    if (subCategory) {
+      q = query(itemsRef, where("category", "==", category), where("subCategory", "==", subCategory));
+    } else {
+      q = query(itemsRef, where("category", "==", category));
+    }
 
-    // Shuffle and pick 10 for diversity
-    const results = filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
-    
-    console.log(`Engine matched ${results.length} items. Ready for 360 Vista.`);
-    return results;
+    const querySnapshot = await getDocs(q);
+    let results = [];
+
+    querySnapshot.forEach((doc) => {
+      const item = doc.data();
+      // SHOW ALL ITEMS in that Category (No restrictive tag filtering)
+      results.push({ id: doc.id, ...item });
+    });
+
+    // Shuffle & Sort by Rating for 360 Immersive Diversity
+    return results.sort(() => 0.5 - Math.random()) // Randomize for fresh discovery
+                 .sort((a,b) => b.rating - a.rating)
+                 .slice(0, 10);
   } catch (error) {
-    console.error("Critical Engine Error:", error);
+    console.error("Firebase Error: ", error);
     return [];
   }
 }
