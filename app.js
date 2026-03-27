@@ -123,12 +123,12 @@ async function handleSelect(category, subCategory) {
   }
 
   // --- 360 DEGREE CIRCLULAR DISCOVERY ---
-  const radius = 6; // Stand in the middle of a 6 meter circle
+  const radius = 12; // Far enough from the menu for zero collision
   items.forEach((item, index) => {
     const angle = (index / items.length) * Math.PI * 2;
     const x = Math.cos(angle) * radius;
     const z = Math.sin(angle) * radius;
-    const y = 1.2; // Eye level
+    const y = 2.0; // Perfect eye-level height
     
     spawnImmersivePanel(item, x, y, z, container);
   });
@@ -156,9 +156,11 @@ function spawnImmersivePanel(item, x, y, z, container) {
   panel.appendChild(card);
 
   const poster = document.createElement('a-image');
-  poster.setAttribute('src', item.imageUrl); poster.setAttribute('crossorigin', 'anonymous'); 
+  // FORCE CROSS-ORIGIN AND SHADER: FLAT FOR 100% VISIBILITY
+  poster.setAttribute('src', item.imageUrl); 
   poster.setAttribute('width', '1.6'); poster.setAttribute('height', '1.8'); 
-  poster.setAttribute('position', '0 0.5 0.02');
+  poster.setAttribute('position', '0 0.5 0.05');
+  poster.setAttribute('material', 'shader: flat; transparent: true');
   panel.appendChild(poster);
 
   const title = document.createElement('a-text');

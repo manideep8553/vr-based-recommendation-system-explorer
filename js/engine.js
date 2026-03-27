@@ -20,33 +20,35 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 
 // Simple Content-Based Recommender Logic
+// Local JSON Data Store (Zero-Fail Strategy)
+let cachedData = null;
+
+async function loadLocalData() {
+  if (cachedData) return cachedData;
+  try {
+    const response = await fetch('./Database/sample_items.json');
+    const data = await response.json();
+    cachedData = data.items;
+    return cachedData;
+  } catch (err) {
+    console.error("Local Data Failure:", err);
+    return [];
+  }
+}
+
 export async function getRecommendations(category, userTags, subCategory = null) {
   try {
-    const itemsRef = collection(db, "items");
-    let q;
+    const items = await loadLocalData();
     
-    // Exact category + subCategory lookup
-    if (subCategory) {
-      q = query(itemsRef, where("category", "==", category), where("subCategory", "==", subCategory));
-    } else {
-      q = query(itemsRef, where("category", "==", category));
-    }
+    // Filter by Category and Sub-Category exactly
+    let filtered = items.filter(item => 
+      item.category === category && (subCategory ? item.subCategory === subCategory : true)
+    );
 
-    const querySnapshot = await getDocs(q);
-    let results = [];
-
-    querySnapshot.forEach((doc) => {
-      const item = doc.data();
-      // SHOW ALL ITEMS in that Category (No restrictive tag filtering)
-      results.push({ id: doc.id, ...item });
-    });
-
-    // Shuffle & Sort by Rating for 360 Immersive Diversity
-    return results.sort(() => 0.5 - Math.random()) // Randomize for fresh discovery
-                 .sort((a,b) => b.rating - a.rating)
-                 .slice(0, 10);
+    // Shuffle and pick 10 for diversity
+    return filtered.sort(() => 0.5 - Math.random()).slice(0, 10);
   } catch (error) {
-    console.error("Firebase Error: ", error);
+    console.error("Engine Error:", error);
     return [];
   }
 }

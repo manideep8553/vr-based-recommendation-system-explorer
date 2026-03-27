@@ -21,18 +21,18 @@
     </a-entity>
 
     <!-- VIEWING DECK -->
-    <a-box id="deck" width="20" height="0.4" depth="20" position="0 -0.2 6" color="#000" material="metalness: 0.8; roughness: 0.2"></a-box>
+    <a-box id="deck" width="25" height="0.4" depth="25" position="0 -0.2 0" color="#000" material="metalness: 0.8; roughness: 0.2"></a-box>
 
-    <a-entity id="rig" position="0 1.6 15">
+    <a-entity id="rig" position="0 1.6 0">
       <a-camera id="camera" wasd-controls look-controls>
         <a-cursor color="#FFF" opacity="1" scale="0.6 0.6 0.6"></a-cursor>
       </a-camera>
     </a-entity>
 
-    <!-- MAIN DASHBOARD -->
-    <a-entity id="selection-hub" position="0 2.8 5">
-      <a-plane width="8" height="1.2" color="#000" material="opacity: 0.8" position="0 1.5 0">
-        <a-text value="ELITE RECOMMENDATION HUB" align="center" color="#FFF" width="8"></a-text>
+    <!-- MAIN DASHBOARD (PUSHED BACK FOR ZERO COLLISION) -->
+    <a-entity id="selection-hub" position="0 2.8 -10">
+      <a-plane width="8" height="1.5" color="#000" material="opacity: 0.8" position="0 1.5 0">
+        <a-text value="ELITE RECOMMENDATION HUB" align="center" color="#FFF" width="10"></a-text>
       </a-plane>
 
       <a-entity id="categories-grid">
