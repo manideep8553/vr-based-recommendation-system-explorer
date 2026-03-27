@@ -3,81 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>One Piece VR Explorer - 7 Wonders</title>
-  
+  <title>Global VR Recommender</title>
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-environment-component@1.3.2/dist/aframe-environment-component.min.js"></script>
-  <script src="https://unpkg.com/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
-  <script type="module" crossorigin src="/assets/index-DRnpUG2D.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DQmKfz0n.css">
+  <script type="module" crossorigin src="/assets/index-C1BOVbq6.js"></script>
 </head>
 <body>
-  <div id="loading-screen">
-    <div class="anchor-logo">⚓</div>
-    <h1>SELECTING YOUR TREASURE...</h1>
-  </div>
-
   <a-scene cursor="rayOrigin: mouse" raycaster="objects: .clickable">
-    <a-sky color="#24b1ff"></a-sky>
-    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" color="#0077be" material="shader: flat"></a-plane>
-    <a-box id="deck" width="12" height="0.4" depth="12" position="0 -0.2 4" color="#5d4037" material="roughness: 1"></a-box>
+    <a-sky color="#0db2ff"></a-sky>
+    <a-plane id="ocean" width="1000" height="1000" rotation="-90 0 0" position="0 -0.5 0" color="#00BFFF" material="opacity: 0.9; metalness: 0.5"></a-plane>
 
-    <a-entity id="rig" position="0 1.6 8">
+    <!-- STATIC ISLANDS (SAFE FROM CDN FAILURES) -->
+    <a-entity position="-15 -0.4 -20" rotation="0 45 0">
+      <a-cone color="#f1c40f" radius-bottom="20" height="4"></a-cone>
+      <a-cylinder color="#8d6e63" radius="0.4" height="6" position="0 3 0"></a-cylinder>
+      <a-sphere color="#2ecc71" radius="2" position="0 6 0"></a-sphere>
+    </a-entity>
+
+    <!-- VIEWING DECK -->
+    <a-box id="deck" width="20" height="0.4" depth="20" position="0 -0.2 6" color="#000" material="metalness: 0.8; roughness: 0.2"></a-box>
+
+    <a-entity id="rig" position="0 1.6 15">
       <a-camera id="camera" wasd-controls look-controls>
-        <a-cursor color="#FFF" opacity="0.6" scale="0.5 0.5 0.5"></a-cursor>
+        <a-cursor color="#FFF" opacity="1" scale="0.6 0.6 0.6"></a-cursor>
       </a-camera>
     </a-entity>
 
-    <!-- Refined Selection Layout for 7 Categories -->
-    <a-entity id="selection-hub" position="0 2.2 4">
+    <!-- MAIN DASHBOARD -->
+    <a-entity id="selection-hub" position="0 2.8 5">
+      <a-plane width="8" height="1.2" color="#000" material="opacity: 0.8" position="0 1.5 0">
+        <a-text value="ELITE RECOMMENDATION HUB" align="center" color="#FFF" width="8"></a-text>
+      </a-plane>
+
       <a-entity id="categories-grid">
-        <!-- Row 1 -->
-        <a-entity position="-1.5 0.6 0">
-          <a-box class="clickable" color="#e74c3c" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Entertainment" align="center" position="0 0 0.06" scale="0.3"></a-text>
+        <!-- ROW 1 -->
+        <a-entity position="-3.3 0.5 0">
+          <a-box id="movies-btn" class="clickable" color="#c0392b" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Movies" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="0 0.6 0">
-          <a-box class="clickable" color="#9b59b6" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Games" align="center" position="0 0 0.06" scale="0.3"></a-text>
+        <a-entity position="-1.1 0.5 0">
+          <a-box id="games-btn" class="clickable" color="#2980b9" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Games" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-        <a-entity position="1.5 0.6 0">
-          <a-box class="clickable" color="#f1c40f" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Learning / Courses" align="center" position="0 0 0.06" scale="0.25"></a-text>
+        <a-entity position="1.1 0.5 0">
+          <a-box id="courses-btn" class="clickable" color="#f1c40f" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Courses" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
-
-        <!-- Row 2 -->
-        <a-entity position="-1.5 0 0">
-          <a-box class="clickable" color="#2ecc71" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Products / Shopping" align="center" position="0 0 0.06" scale="0.25"></a-text>
-        </a-entity>
-        <a-entity position="0 0 0">
-          <a-box class="clickable" color="#3498db" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Travel / Experiences" align="center" position="0 0 0.06" scale="0.25"></a-text>
-        </a-entity>
-        <a-entity position="1.5 0 0">
-          <a-box class="clickable" color="#e67e22" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="Music" align="center" position="0 0 0.06" scale="0.3"></a-text>
+        <a-entity position="3.3 0.5 0">
+          <a-box id="travel-btn" class="clickable" color="#27ae60" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Travel" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
 
-        <!-- Row 3 (Food) -->
-        <a-entity position="0 -0.6 0">
-          <a-box class="clickable" color="#d35400" width="1.2" height="0.4" depth="0.1"></a-box>
-          <a-text value="🍔 Food" align="center" position="0 0 0.06" scale="0.3"></a-text>
+        <!-- ROW 2 -->
+        <a-entity position="-2.2 -0.5 0">
+          <a-box id="products-btn" class="clickable" color="#8e44ad" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Products" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
+        </a-entity>
+        <a-entity position="0 -0.5 0">
+          <a-box id="music-btn" class="clickable" color="#d35400" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Music" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
+        </a-entity>
+        <a-entity position="2.2 -0.5 0">
+          <a-box id="food-btn" class="clickable" color="#e74c3c" width="2.0" height="0.6" depth="0.1"></a-box>
+          <a-text value="Food" align="center" position="0 0 0.08" width="6" color="#FFF"></a-text>
         </a-entity>
       </a-entity>
     </a-entity>
 
-    <a-entity id="reco-container" position="0 1.8 1"></a-entity>
-    <a-entity light="type: ambient; color: #FFF; intensity: 1"></a-entity>
+    <a-entity id="reco-container" position="0 2 0"></a-entity>
+    <a-entity light="type: ambient; color: #FFF; intensity: 0.9"></a-entity>
+    <a-entity light="type: directional; color: #FFF; intensity: 1.2" position="-1 10 5"></a-entity>
   </a-scene>
-
-  <script>
-    document.querySelector('a-scene').addEventListener('loaded', function () {
-      setTimeout(() => {
-        document.getElementById('loading-screen').style.opacity = '0';
-        setTimeout(() => { document.getElementById('loading-screen').style.display = 'none'; }, 1000);
-      }, 1000);
-    });
-  </script>
 </body>
 </html>
