@@ -1,249 +1,2765 @@
 {
   "items": [
-    { "title": "Baahubali 2", "model": "sword", "description": "Epic saga conclusion.", "category": "Movies", "subCategory": "Telugu", "tags": ["epic", "action"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BOGNlZTA3YzAtMjExMi00ZTM5LWI5N2ItYTE3MDE2MTdmYzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" },
-    { "title": "RRR", "model": "fire", "description": "Legendary revolution.", "category": "Movies", "subCategory": "Telugu", "tags": ["action"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctZDdhNy00ZGE2LWIyM2ItY2Y2NjA4NzZeXkEyXkFqcGdeQXVyNTgxODYzNDI@._V1_SX300.jpg" },
-    { "title": "Kalki 2898 AD", "model": "scifi", "description": "Dystopian future.", "category": "Movies", "subCategory": "Telugu", "tags": ["scifi"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/910iR6Z8iPL._AC_SL1500_.jpg" },
-    { "title": "Pushpa", "model": "truck", "description": "Red sandalwood smuggling.", "category": "Movies", "subCategory": "Telugu", "tags": ["action"], "rating": 4.6, "imageUrl": "https://m.media-amazon.com/images/I/71u9zV0G-SL._AC_SL1500_.jpg" },
-    { "title": "Jersey", "model": "bat", "description": "Inspirational cricket journey.", "category": "Movies", "subCategory": "Telugu", "tags": ["sports"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/91PshJ-lZCL._AC_SL1500_.jpg" },
-    { "title": "Eega", "model": "fly", "description": "Housefly revenge.", "category": "Movies", "subCategory": "Telugu", "tags": ["fantasy"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/61K-K8T4f-L._AC_SL1500_.jpg" },
-    { "title": "Mahanati", "model": "bio", "description": "Life of Savitri.", "category": "Movies", "subCategory": "Telugu", "tags": ["drama"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/71FEn+e1AOL._AC_SL1500_.jpg" },
-    { "title": "Rangasthalam", "model": "village", "description": "Rural revenge saga.", "category": "Movies", "subCategory": "Telugu", "tags": ["drama"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/71G1eXgS+qL._AC_SL1500_.jpg" },
-    { "title": "Magadheera", "model": "warrior", "description": "Reincarnation epic.", "category": "Movies", "subCategory": "Telugu", "tags": ["action"], "rating": 4.6, "imageUrl": "https://m.media-amazon.com/images/I/71t6W0C+l+L._AC_SL1500_.jpg" },
-    { "title": "Salaar", "model": "crime", "description": "Underworld ceasefire.", "category": "Movies", "subCategory": "Telugu", "tags": ["action"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/81m9aL-8WYL._AC_SL1500_.jpg" },
-
-    { "title": "Dangal", "model": "medal", "description": "Wrestling for gold.", "category": "Movies", "subCategory": "Hindi", "tags": ["sports"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/91t6W0C+l+L._AC_SL1500_.jpg" },
-    { "title": "3 Idiots", "model": "book", "description": "Creative education.", "category": "Movies", "subCategory": "Hindi", "tags": ["comedy"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjM2EtZGJhYS00ZGYyLTgwM2ItYzQ2ZTA0NzUxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" },
-    { "title": "Sholay", "model": "horse", "description": "Dacoit action classic.", "category": "Movies", "subCategory": "Hindi", "tags": ["action"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/81I-33-3-TL._AC_SL1500_.jpg" },
-    { "title": "Lagaan", "model": "bat", "description": "Cricket against tax.", "category": "Movies", "subCategory": "Hindi", "tags": ["drama"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/711e9XIdEGL._AC_SL1500_.jpg" },
-    { "title": "PK", "model": "ufo", "description": "Alien social satire.", "category": "Movies", "subCategory": "Hindi", "tags": ["scifi"], "rating": 4.6, "imageUrl": "https://m.media-amazon.com/images/I/71u9zV0G-SL._AC_SL1500_.jpg" },
-    { "title": "Drishyam", "model": "mask", "description": "Protection mystery.", "category": "Movies", "subCategory": "Hindi", "tags": ["thriller"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/71G1eXgS+qL._AC_SL1500_.jpg" },
-    { "title": "Swades", "model": "bulb", "description": "Returning home.", "category": "Movies", "subCategory": "Hindi", "tags": ["social"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/71FEn+e1AOL._AC_SL1500_.jpg" },
-    { "title": "Andhadhun", "model": "piano", "description": "Blind pianist mystery.", "category": "Movies", "subCategory": "Hindi", "tags": ["thriller"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/61K-K8T4f-L._AC_SL1500_.jpg" },
-    { "title": "Chak De India", "model": "hockey", "description": "India hockey pride.", "category": "Movies", "subCategory": "Hindi", "tags": ["sports"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/910iR6Z8iPL._AC_SL1500_.jpg" },
-    { "title": "Dil Chahta Hai", "model": "beach", "description": "Modern friendship.", "category": "Movies", "subCategory": "Hindi", "tags": ["romance"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/I/71ZpT-B5XGL._AC_SL1500_.jpg" },
-
-    { "title": "The Godfather", "model": "rose", "description": "Crime masterpiece.", "category": "Movies", "subCategory": "English", "tags": ["crime"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" },
-    { "title": "The Dark Knight", "model": "bat", "description": "Batman tragedy.", "category": "Movies", "subCategory": "English", "tags": ["action"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg" },
-    { "title": "Inception", "model": "top", "description": "Dream heist.", "category": "Movies", "subCategory": "English", "tags": ["scifi"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg" },
-    { "title": "Pulp Fiction", "model": "gun", "description": "Non-linear crime.", "category": "Movies", "subCategory": "English", "tags": ["crime"], "rating": 4.6, "imageUrl": "https://m.media-amazon.com/images/I/711e9XIdEGL._AC_SL1500_.jpg" },
-    { "title": "Matrix", "model": "code", "description": "Simulation world.", "category": "Movies", "subCategory": "English", "tags": ["scifi"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/51A3QvX3S-L._AC_SL1500_.jpg" },
-    { "title": "Interstellar", "model": "ship", "description": "Time travel space.", "category": "Movies", "subCategory": "English", "tags": ["scifi"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/910iR6Z8iPL._AC_SL1500_.jpg" },
-    { "title": "Fight Club", "model": "soap", "description": "Internal struggle.", "category": "Movies", "subCategory": "English", "tags": ["drama"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/81m9aL-8WYL._AC_SL1500_.jpg" },
-    { "title": "The Lord of the Rings", "model": "ring", "description": "Fantasy epic.", "category": "Movies", "subCategory": "English", "tags": ["fantasy"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/71A2T-7mRRL._AC_SL1500_.jpg" },
-    { "title": "Shawshank Redemption", "model": "hammer", "description": "Prison hope.", "category": "Movies", "subCategory": "English", "tags": ["drama"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/91PshJ-lZCL._AC_SL1500_.jpg" },
-    { "title": "Joker", "model": "mask", "description": "Rise of madness.", "category": "Movies", "subCategory": "English", "tags": ["psychological"], "rating": 4.5, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNGVjM2RjMWQtOTdhYy00MjdmLTgwMTctYjZiY2UxNzU3NWJlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" },
-
-    { "title": "Stranger Things", "model": "bike", "description": "Upside down mystery.", "category": "Web Series", "subCategory": "Sci-Fi", "tags": ["scifi"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDZkYmVhNjMtNWU4MC00MDQxLWE3MjYtZGJlZGU0N2FhZGUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "Money Heist", "model": "mask", "description": "Bank robbery saga.", "category": "Web Series", "subCategory": "Crime", "tags": ["thriller"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00Y2IALTgxM2UtNjVlZDYyZWQxZjUyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "Dark", "model": "knot", "description": "Time travel loops.", "category": "Web Series", "subCategory": "Thriller", "tags": ["scifi"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmIyZTM2YmYtNWU0NC00ZGE1LWJiOTMtYzQ2Y2JjYjAyYjFkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "The Boys", "model": "hero", "description": "Evil superheroes.", "category": "Web Series", "subCategory": "Action", "tags": ["dark"], "rating": 4.7, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDA2YmYyMTEtYmQ2ZS00Y2EwLTljOGYtYTRkZDU1N2FmZmRjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "Narcos", "model": "drugs", "description": "Cartel rise.", "category": "Web Series", "subCategory": "Biographical", "tags": ["crime"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmFjODU3YzgtMGUwNC00ZGI3LWFkZjQtMjkxZDc3NmQ1MzcyXkEyXkFqcGdeQXVyNjU2NjA5NjM@._V1_SX300.jpg" },
-    { "title": "Squid Game", "model": "game", "description": "Deadly survival.", "category": "Web Series", "subCategory": "Thriller", "tags": ["survival"], "rating": 4.4, "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWE3MDVkN2EtNjQ5MS00ZDQ4LTliNzYtMDUyNzY1N2RjYmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "The Bear", "model": "kitchen", "description": "Chef drama.", "category": "Web Series", "subCategory": "Drama", "tags": ["emotional"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2ZmMjUxY2ItZDhjNy00YmU3LWFlYmMtOGFmZTEzY2I2MmE1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "Succession", "model": "office", "description": "Family empire.", "category": "Web Series", "subCategory": "Drama", "tags": ["power"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjYxNjU3OTA3MF5BMl5BanBnXkFtZTgwNjAzNTEzMzI@._V1_SX300.jpg" },
-    { "title": "The Office", "model": "desk", "description": "Cubicle comedy.", "category": "Web Series", "subCategory": "Comedy", "tags": ["social"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmZi00NjU5LWE4ZGItZDMzZWMwY2E1Y2UyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-    { "title": "Chernobyl", "model": "hazard", "description": "Disaster investigation.", "category": "Web Series", "subCategory": "Historical", "tags": ["drama"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmU0Zjg0N2UtYzg4NC00ZDExLWEzZWQtYTkyYTNlMGQyZjg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" },
-
-    { "title": "One Piece", "model": "hat", "description": "Great pirate journey.", "category": "Anime", "subCategory": "Action", "tags": ["adventure"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctZDdhNy00ZGE2LWIyM2ItY2Y2NjA4NzZeXkEyXkFqcGdeQXVyNTgxODYzNDI@._V1_SX300.jpg" },
-    { "title": "Attack on Titan", "model": "wall", "description": "Survive the giants.", "category": "Anime", "subCategory": "Thriller", "tags": ["dark"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNDFjYTIxMjctYTQ2ZC00NjQwLTliMjAtYjM0Zjg2MzYyYmU3XkEyXkFqcGdeQXVyMTA3OTEyODI1._V1_SX300.jpg" },
-    { "title": "Naruto Shippuden", "model": "scroll", "description": "Ninja path.", "category": "Anime", "subCategory": "Action", "tags": ["battle"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGFiMWFhNDAtMzUyZS00NmQ2LTljNDYtMmZjNTc5MDUxMzViXkEyXkFqcGdeQXVyNjAwNDUxODI1._V1_SX300.jpg" },
-    { "title": "Fullmetal Alchemist", "model": "arm", "description": "Alchemy cost.", "category": "Anime", "subCategory": "Adventure", "tags": ["magic"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg" },
-    { "title": "Death Note", "model": "note", "description": "God of new world.", "category": "Anime", "subCategory": "Psychological", "tags": ["thriller"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjM2EtZGJhYS00ZGYyLTgwM2ItYzQ2ZTA0NzUxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" },
-    { "title": "Demon Slayer", "model": "sword", "description": "Exterminating demons.", "category": "Anime", "subCategory": "Action", "tags": ["art"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/910iR6Z8iPL._AC_SL1500_.jpg" },
-    { "title": "Jujutsu Kaisen", "model": "finger", "description": "Cursed spirits.", "category": "Anime", "subCategory": "Action", "tags": ["battle"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/71G1eXgS+qL._AC_SL1500_.jpg" },
-    { "title": "Hunter x Hunter", "model": "rod", "description": "Gon's finding.", "category": "Anime", "subCategory": "Adventure", "tags": ["action"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/711e9XIdEGL._AC_SL1500_.jpg" },
-    { "title": "Steins Gate", "model": "phone", "description": "Time travel choice.", "category": "Anime", "subCategory": "Sci-Fi", "tags": ["scifi"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/61K-K8T4f-L._AC_SL1500_.jpg" },
-    { "title": "Haikyuu", "model": "ball", "description": "Volleyball elite.", "category": "Anime", "subCategory": "Sports", "tags": ["inspirational"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/81I-33-3-TL._AC_SL1500_.jpg" },
-
-    { "title": "Elden Ring", "model": "ring", "description": "Shatter the Ring.", "category": "Games", "subCategory": "PC games", "tags": ["rpg"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/81S79b8a3eL._AC_SL1500_.jpg" },
-    { "title": "Valorant", "model": "ability", "description": "Strategic shooter.", "category": "Games", "subCategory": "PC games", "tags": ["fps"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=300" },
-    { "title": "Minecraft", "model": "pick", "description": "Survival build.", "category": "Games", "subCategory": "PC games", "tags": ["creative"], "rating": 4.8, "imageUrl": "https://m.media-amazon.com/images/I/91PshJ-lZCL._AC_SL1500_.jpg" },
-    { "title": "Cyberpunk 2077", "model": "chip", "description": "Future dystopia.", "category": "Games", "subCategory": "PC games", "tags": ["action"], "rating": 4.5, "imageUrl": "https://m.media-amazon.com/images/I/81m9aL-8WYL._AC_SL1500_.jpg" },
-    { "title": "The Witcher 3", "model": "wolf", "description": "Geralt's hunt.", "category": "Games", "subCategory": "PC games", "tags": ["rpg"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/711e9XIdEGL._AC_SL1500_.jpg" },
-    { "title": "CS:GO 2", "model": "gun", "description": "Classic shooter.", "category": "Games", "subCategory": "PC games", "tags": ["fps"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1542751128-1738b0ee2b59?q=80&w=300" },
-    { "title": "God of War", "model": "axe", "description": "Myth and father.", "category": "Games", "subCategory": "PC games", "tags": ["action"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/81I-33-3-TL._AC_SL1500_.jpg" },
-    { "title": "Red Dead 2", "model": "hat", "description": "Outlaw legend.", "category": "Games", "subCategory": "PC games", "tags": ["adventure"], "rating": 4.9, "imageUrl": "https://m.media-amazon.com/images/I/71G1eXgS+qL._AC_SL1500_.jpg" },
-    { "title": "Roblox", "model": "cube", "description": "User world.", "category": "Games", "subCategory": "PC games", "tags": ["social"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=300" },
-    { "title": "Stardew Valley", "model": "hoe", "description": "Farming life.", "category": "Games", "subCategory": "PC games", "tags": ["casual"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300" },
-
-    { "title": "PUBG Mobile", "model": "helmet", "description": "Survival royal.", "category": "Games", "subCategory": "Mobile games", "tags": ["action"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=300" },
-    { "title": "Free Fire", "model": "parachute", "description": "Elite survival.", "category": "Games", "subCategory": "Mobile games", "tags": ["survival"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1610427649528-76c8cba0c97d?q=80&w=300" },
-    { "title": "Candy Crush", "model": "star", "description": "Sweet match.", "category": "Games", "subCategory": "Mobile games", "tags": ["puzzle"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300" },
-    { "title": "Clash of Clans", "model": "base", "description": "Village war.", "category": "Games", "subCategory": "Mobile games", "tags": ["strategy"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1614210037805-4c6e93245453?q=80&w=300" },
-    { "title": "Among Us", "model": "crew", "description": "Imposter task.", "category": "Games", "subCategory": "Mobile games", "tags": ["social"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=300" },
-    { "title": "Subway Surfers", "model": "shoes", "description": "Infinite run.", "category": "Games", "subCategory": "Mobile games", "tags": ["run"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1614210037805-4c6e93245453?q=80&w=300" },
-    { "title": "Call of Duty M", "model": "gun", "description": "War mobile.", "category": "Games", "subCategory": "Mobile games", "tags": ["fps"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=300" },
-    { "title": "Pokemon Go", "model": "ball", "description": "AR hunt.", "category": "Games", "subCategory": "Mobile games", "tags": ["ar"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=300" },
-    { "title": "Ludo King", "model": "dice", "description": "Casual classic.", "category": "Games", "subCategory": "Mobile games", "tags": ["board"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300" },
-    { "title": "Angry Birds", "model": "bird", "description": "Sling shot.", "category": "Games", "subCategory": "Mobile games", "tags": ["casual"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1610427649528-76c8cba0c97d?q=80&w=300" },
-
-    { "title": "Half Life Alyx", "model": "glove", "description": "VR peak.", "category": "Games", "subCategory": "VR games", "tags": ["action"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300" },
-    { "title": "Beat Saber", "model": "saber", "description": "Neon rhythm.", "category": "Games", "subCategory": "VR games", "tags": ["music"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300" },
-    { "title": "Superhot VR", "model": "time", "description": "Freeze action.", "category": "Games", "subCategory": "VR games", "tags": ["action"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300" },
-    { "title": "Resident Evil VR", "model": "eye", "description": "Survival fear.", "category": "Games", "subCategory": "VR games", "tags": ["horror"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300" },
-    { "title": "Pavlov VR", "model": "sniper", "description": "VR shooter.", "category": "Games", "subCategory": "VR games", "tags": ["fps"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300" },
-    { "title": "The Climb", "model": "rope", "description": "Extreme reach.", "category": "Games", "subCategory": "VR games", "tags": ["sports"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300" },
-    { "title": "Arizona Sunshine", "model": "sun", "description": "Zombie desert.", "category": "Games", "subCategory": "VR games", "tags": ["action"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300" },
-    { "title": "Boneworks", "model": "phys", "description": "Physics portal.", "category": "Games", "subCategory": "VR games", "tags": ["scifi"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300" },
-    { "title": "Blade Sorcery", "model": "sword", "description": "Magic combat.", "category": "Games", "subCategory": "VR games", "tags": ["fantasy"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300" },
-    { "title": "Astro Bot", "model": "bot", "description": "Robot rescue.", "category": "Games", "subCategory": "VR games", "tags": ["platformer"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300" },
-
-    { "title": "React Masterclass", "model": "laptop", "description": "Build modern Web.", "category": "Courses", "subCategory": "Coding courses", "tags": ["web"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-    { "title": "Python for Data", "model": "snake", "description": "Analytics path.", "category": "Courses", "subCategory": "Coding courses", "tags": ["python"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Next.js Elite", "model": "stack", "description": "Serverless dev.", "category": "Courses", "subCategory": "Coding courses", "tags": ["js"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-    { "title": "Rust Systems", "model": "gear", "description": "Safe coding.", "category": "Courses", "subCategory": "Coding courses", "tags": ["rust"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Cyber Security", "model": "lock", "description": "Defensive net.", "category": "Courses", "subCategory": "Coding courses", "tags": ["security"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Full Stack Java", "model": "cup", "description": "Enterprise apps.", "category": "Courses", "subCategory": "Coding courses", "tags": ["java"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-    { "title": "AI Fundamentals", "model": "brain", "description": "Neural nets.", "category": "Courses", "subCategory": "Coding courses", "tags": ["ai"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "DevOps Expert", "model": "cloud", "description": "CI/CD pipeline.", "category": "Courses", "subCategory": "Coding courses", "tags": ["cloud"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-    { "title": "IOS Swift Dev", "model": "apple", "description": "Mobile native.", "category": "Courses", "subCategory": "Coding courses", "tags": ["mobile"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "SQL Mastery", "model": "db", "description": "Query database.", "category": "Courses", "subCategory": "Coding courses", "tags": ["sql"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300" },
-
- 
-    { "title": "AWS Cloud Prax", "model": "cloud", "description": "Cloud basics.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["aws"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Ethical Hacking", "model": "mask", "description": "Pentesting intro.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["security"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Linux Mastery", "model": "penguin", "description": "Terminal power.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["linux"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Docker/K8s", "model": "ship", "description": "Containerize apps.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["tech"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Blockchain Base", "model": "link", "description": "Web3 decentralized.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["crypto"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Machine Learning", "model": "stat", "description": "Prediction models.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["ai"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Networking 101", "model": "hub", "description": "TCP/IP layers.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["net"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "UI/UX Design", "model": "pen", "description": "Figma visuals.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["design"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "IoT Systems", "model": "chip", "description": "Arduino board.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["iot"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "NoSQL Database", "model": "db", "description": "MongoDB scale.", "category": "Courses", "subCategory": "Tech tutorials", "tags": ["db"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-
-    { "title": "Public Speaking", "model": "mic", "description": "Conquer stage.", "category": "Courses", "subCategory": "Skill development", "tags": ["soft"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Time Management", "model": "clock", "description": "Optimize hours.", "category": "Courses", "subCategory": "Skill development", "tags": ["life"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Leadership Ace", "model": "crown", "description": "Lead teams.", "category": "Courses", "subCategory": "Skill development", "tags": ["soft"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Personal Finance", "model": "dollar", "description": "Invest smart.", "category": "Courses", "subCategory": "Skill development", "tags": ["money"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Creative Writing", "model": "pen", "description": "Story craft.", "category": "Courses", "subCategory": "Skill development", "tags": ["creative"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Emotional Intel", "model": "heart", "description": "Understand self.", "category": "Courses", "subCategory": "Skill development", "tags": ["life"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Negotiation Mastery", "model": "hands", "description": "Win deals.", "category": "Courses", "subCategory": "Skill development", "tags": ["soft"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Yoga Wisdom", "model": "lotus", "description": "Mind body calm.", "category": "Courses", "subCategory": "Skill development", "tags": ["health"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "Productivity Hack", "model": "lightning", "description": "Deep work state.", "category": "Courses", "subCategory": "Skill development", "tags": ["efficiency"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-    { "title": "GMAT Elite", "model": "grad", "description": "Higher studies.", "category": "Courses", "subCategory": "Skill development", "tags": ["academic"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300" },
-
-    { "title": "Apple Watch Ultra", "model": "watch", "description": "Rugged fitness.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1544117518-2b0417812921?q=80&w=300" },
-    { "title": "Sony XM5", "model": "headset", "description": "Best ANC.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=300" },
-    { "title": "MacBook Air M3", "model": "laptop", "description": "Power portability.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1517336714460-d1b1661c4d7b?q=80&w=300" },
-    { "title": "iPad Pro OLED", "model": "tablet", "description": "Creative beast.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=300" },
-    { "title": "Samsung S24 Ultra", "model": "phone", "description": "AI flagship.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1610940840281-9979313ea59b?q=80&w=300" },
-    { "title": "iPhone 15 Pro", "model": "phone", "description": "Titanium build.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?q=80&w=300" },
-    { "title": "DJI Mini 4 Pro", "model": "drone", "description": "Aerial vision.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?q=80&w=300" },
-    { "title": "PS5 Slim", "model": "console", "description": "4K gaming.", "category": "Products", "subCategory": "Gadgets", "tags": ["gaming"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=300" },
-    { "title": "Asus ROG Ally", "model": "handheld", "description": "Portable PC.", "category": "Products", "subCategory": "Gadgets", "tags": ["gaming"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300" },
-    { "title": "Kindle Oasis", "model": "eink", "description": "Limitless read.", "category": "Products", "subCategory": "Gadgets", "tags": ["tech"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1512428559083-a4085603da80?q=80&w=300" },
-
-    { "title": "North Face Parka", "model": "coat", "description": "Winter warmth.", "category": "Products", "subCategory": "Clothes", "tags": ["fashion"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Nike Air Max", "model": "shoes", "description": "Walk air.", "category": "Products", "subCategory": "Clothes", "tags": ["shoes"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300" },
-    { "title": "Levi 501", "model": "denim", "description": "Original fit.", "category": "Products", "subCategory": "Clothes", "tags": ["pants"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Adidas Ultraboost", "model": "foot", "description": "Run fast.", "category": "Products", "subCategory": "Clothes", "tags": ["sports"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300" },
-    { "title": "Uniqlo Heattech", "model": "base", "description": "Thermal tech.", "category": "Products", "subCategory": "Clothes", "tags": ["comfort"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Patagonia Nano", "model": "puffer", "description": "Eco warmth.", "category": "Products", "subCategory": "Clothes", "tags": ["outdoor"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Ray Ban Wayfare", "model": "shade", "description": "Iconic look.", "category": "Products", "subCategory": "Clothes", "tags": ["accessory"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Gucci Belt", "model": "logo", "description": "Luxury icon.", "category": "Products", "subCategory": "Clothes", "tags": ["high"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-    { "title": "Casio G-Shock", "model": "clock", "description": "Indestructible.", "category": "Products", "subCategory": "Clothes", "tags": ["watch"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1544117518-2b0417812921?q=80&w=300" },
-    { "title": "Zara Suit", "model": "formal", "description": "Sharp evening.", "category": "Products", "subCategory": "Clothes", "tags": ["professional"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300" },
-
-    { "title": "Leather Wallet", "model": "case", "description": "Classic hide.", "category": "Products", "subCategory": "Accessories", "tags": ["style"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=300" },
-    { "title": "Silver Ring", "model": "ring", "description": "Minimal band.", "category": "Products", "subCategory": "Accessories", "tags": ["jewelry"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Silk Scarf", "model": "wrap", "description": "Soft floral.", "category": "Products", "subCategory": "Accessories", "tags": ["luxury"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Gold Necklace", "model": "chain", "description": "Fine 24k.", "category": "Products", "subCategory": "Accessories", "tags": ["jewelry"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Modern Backpack", "model": "bag", "description": "Urban commute.", "category": "Products", "subCategory": "Accessories", "tags": ["util"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Aviator shades", "model": "glass", "description": "Sky classic.", "category": "Products", "subCategory": "Accessories", "tags": ["shades"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Woolen Cap", "model": "beanie", "description": "Snug fit.", "category": "Products", "subCategory": "Accessories", "tags": ["warmth"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Pocket Square", "model": "silk", "description": "Suit accessory.", "category": "Products", "subCategory": "Accessories", "tags": ["formal"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Cufflinks Pro", "model": "gem", "description": "Wrist metal.", "category": "Products", "subCategory": "Accessories", "tags": ["formal"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-    { "title": "Travel Pillow", "model": "neck", "description": "Plight ease.", "category": "Products", "subCategory": "Accessories", "tags": ["util"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300" },
-
-    { "title": "Maldives Overwater", "model": "beach", "description": "Luxury reef.", "category": "Travel", "subCategory": "Tourist places", "tags": ["beach"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300" },
-    { "title": "Paris Louvre", "model": "tower", "description": "Art and love.", "category": "Travel", "subCategory": "Tourist places", "tags": ["city"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300" },
-    { "title": "Tokyo Shinjuku", "model": "neon", "description": "Future city.", "category": "Travel", "subCategory": "Tourist places", "tags": ["city"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=300" },
-    { "title": "Dubai Burj", "model": "skyscraper", "description": "Tallest view.", "category": "Travel", "subCategory": "Tourist places", "tags": ["desert"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=300" },
-    { "title": "Swiss Alps", "model": "snow", "description": "Alpine peak.", "category": "Travel", "subCategory": "Tourist places", "tags": ["mountain"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300" },
-    { "title": "Bali UBUD", "model": "jungle", "description": "Forest zen.", "category": "Travel", "subCategory": "Tourist places", "tags": ["tropical"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=300" },
-    { "title": "Rome Arena", "model": "stone", "description": "Colosseum hist.", "category": "Travel", "subCategory": "Tourist places", "tags": ["historic"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=300" },
-    { "title": "NYC Times Sq", "model": "taxi", "description": "Concrete jungle.", "category": "Travel", "subCategory": "Tourist places", "tags": ["city"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=300" },
-    { "title": "London Eye", "model": "wheel", "description": "Thames views.", "category": "Travel", "subCategory": "Tourist places", "tags": ["city"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=300" },
-    { "title": "Santorini Sun", "model": "white", "description": "Blue dome island.", "category": "Travel", "subCategory": "Tourist places", "tags": ["beach"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=300" },
-    { "title": "Louvre Virtual", "model": "museum", "description": "Art gallery tour.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["art"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300" },
-    { "title": "Space Station VR", "model": "iss", "description": "Orbit Earth.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["space"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=300" },
-    { "title": "Great Wall Map", "model": "wall", "description": "Ancient walk.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["history"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1508804185872-d1baad9b1eca?q=80&w=300" },
-    { "title": "Amazon Jungle 360", "model": "river", "description": "Rainforest trek.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["nature"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=300" },
-    { "title": "Eiffel Tower VR", "model": "tower", "description": "Paris breeze.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["city"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300" },
-    { "title": "Mars Rover Cam", "model": "rover", "description": "Red planet tour.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["space"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=300" },
-    { "title": "Venice Gondola", "model": "boat", "description": "Canal journey.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["city"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=300" },
-    { "title": "Taj Mahal Virtual", "model": "marble", "description": "Palace of Love.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["heritage"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=300" },
-    { "title": "Safari Live 360", "model": "lion", "description": "Wild encounter.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["wildlife"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1516428943464-67f8a5a5f418?q=80&w=300" },
-    { "title": "Antarctica VR", "model": "ice", "description": "Frozen world.", "category": "Travel", "subCategory": "Virtual tours", "tags": ["cold"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=300" },
-    { "title": "Grand Canyon Pro", "model": "canyon", "description": "Red rock hike.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["trek"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300" },
-    { "title": "Everest Base Camp", "model": "peak", "description": "Roof of world.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["climb"], "rating": 5.0, "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300" },
-    { "title": "Patagonia Trails", "model": "glacier", "description": "Wild South.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["trek"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300" },
-    { "title": "Inca Trail Trek", "model": "ruins", "description": "Machu Picchu.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["history"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1512411516584-90a604216853?q=80&w=300" },
-    { "title": "Sky Jump Elite", "model": "plane", "description": "NZ jump.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["jump"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300" },
-    { "title": "Sahara Biking Pro", "model": "dune", "description": "Desert ride.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["sand"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=300" },
-    { "title": "Ice Cave Walk", "model": "ice", "description": "Iceland trek.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["ice"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=300" },
-    { "title": "Banff Lake Tour", "model": "lake", "description": "Canoe trip.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["nature"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300" },
-    { "title": "Barrier Reef Dive", "model": "fish", "description": "Undersea tour.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["dive"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300" },
-    { "title": "Vertical Climb", "model": "rock", "description": "Yosemite wall.", "category": "Travel", "subCategory": "Adventure spots", "tags": ["rock"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300" },
-    { "title": "Starboy Hit", "model": "star", "description": "The Weeknd.", "category": "Music", "subCategory": "Songs", "tags": ["pop"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Shape of You Mix", "model": "heart", "description": "Ed Sheeran.", "category": "Music", "subCategory": "Songs", "tags": ["pop"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Blinding Lights Pop", "model": "light", "description": "Synth pop.", "category": "Music", "subCategory": "Songs", "tags": ["retro"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Believer Anthem", "model": "fire", "description": "Imagine Dragons.", "category": "Music", "subCategory": "Songs", "tags": ["rock"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300" },
-    { "title": "Despacito Latin", "model": "dance", "description": "Summer hit.", "category": "Music", "subCategory": "Songs", "tags": ["latin"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Stay Radio", "model": "vibe", "description": "Bieber hit.", "category": "Music", "subCategory": "Songs", "tags": ["pop"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Levitating Dance", "model": "disco", "description": "Dua Lipa.", "category": "Music", "subCategory": "Songs", "tags": ["dance"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Flowers Vocal", "model": "bloom", "description": "Miley Cyrus.", "category": "Music", "subCategory": "Songs", "tags": ["pop"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Perfect Ballad Mix", "model": "ring", "description": "Acoustic.", "category": "Music", "subCategory": "Songs", "tags": ["romantic"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Save Tears Pop", "model": "tear", "description": "80s vibe.", "category": "Music", "subCategory": "Songs", "tags": ["pop"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Lo-Fi Study Mix", "model": "coffee", "description": "Ambient beats.", "category": "Music", "subCategory": "Playlists", "tags": ["relax"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300" },
-    { "title": "Global Top 50", "model": "chart", "description": "Global hits.", "category": "Music", "subCategory": "Playlists", "tags": ["hot"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Rock Legends Mix", "model": "guitar", "description": "True rock.", "category": "Music", "subCategory": "Playlists", "tags": ["classic"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300" },
-    { "title": "Pure Focus Mix", "model": "brain", "description": "Ambient mood.", "category": "Music", "subCategory": "Playlists", "tags": ["focus"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300" },
-    { "title": "Workout List", "model": "gym", "description": "High energy.", "category": "Music", "subCategory": "Playlists", "tags": ["energy"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=300" },
-    { "title": "Midnight Jazz Mix", "model": "sax", "description": "Smooth mood.", "category": "Music", "subCategory": "Playlists", "tags": ["chill"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=300" },
-    { "title": "Relaxing Mix List", "model": "cloud", "description": "Home relax.", "category": "Music", "subCategory": "Playlists", "tags": ["chill"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300" },
-    { "title": "Urban Rap Mix", "model": "chain", "description": "New beats.", "category": "Music", "subCategory": "Playlists", "tags": ["rap"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Future EDM Mix", "model": "plug", "description": "Modern EDM.", "category": "Music", "subCategory": "Playlists", "tags": ["edm"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "K-Pop Rising Mix", "model": "heart", "description": "Seoul pop.", "category": "Music", "subCategory": "Playlists", "tags": ["kpop"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Abel Music Star", "model": "face", "description": "R&B Star.", "category": "Music", "subCategory": "Artists", "tags": ["rnb"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Swift Collection V", "model": "pop", "description": "Global pop.", "category": "Music", "subCategory": "Artists", "tags": ["pop"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Champagne Papi V", "model": "owl", "description": "The Boy.", "category": "Music", "subCategory": "Artists", "tags": ["rap"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Ariana G Diva V", "model": "tail", "description": "Top vocals.", "category": "Music", "subCategory": "Artists", "tags": ["pop"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Reggaeton Elite V", "model": "latin", "description": "Latin chart.", "category": "Music", "subCategory": "Artists", "tags": ["latin"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Beyoncé Queen Mix", "model": "bee", "description": "Queen Bee.", "category": "Music", "subCategory": "Artists", "tags": ["pop"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Post Malone Hits V", "model": "ink", "description": "Pop fusion.", "category": "Music", "subCategory": "Artists", "tags": ["hiphop"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Billie E. Style V", "model": "green", "description": "Indie pop.", "category": "Music", "subCategory": "Artists", "tags": ["alt"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300" },
-    { "title": "Coldplay Arena V", "model": "globe", "description": "Brit rock.", "category": "Music", "subCategory": "Artists", "tags": ["rock"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300" },
-    { "title": "Travis Scott Ast V", "model": "astroworld", "description": "Trap star.", "category": "Music", "subCategory": "Artists", "tags": ["rap"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300" },
-    { "title": "Paradise Dyn. Mix", "model": "plate", "description": "Hyd Biryani.", "category": "Food", "subCategory": "Restaurants", "tags": ["biryani"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300" },
-    { "title": "Bawarchi Pot Mix", "model": "pot", "description": "Real Biryani.", "category": "Food", "subCategory": "Restaurants", "tags": ["biryani"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300" },
-    { "title": "Pista House Elite", "model": "haleem", "description": "World Haleem.", "category": "Food", "subCategory": "Restaurants", "tags": ["tradition"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=300" },
-    { "title": "Café Irani Tea", "model": "cup", "description": "Classic Tea.", "category": "Food", "subCategory": "Restaurants", "tags": ["cafe"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=300" },
-    { "title": "Shah Mutton Sp", "model": "grill", "description": "Spiced meat.", "category": "Food", "subCategory": "Restaurants", "tags": ["nonveg"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300" },
-    { "title": "Chutneys South Bo", "model": "tray", "description": "South Indian.", "category": "Food", "subCategory": "Restaurants", "tags": ["veg"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=300" },
-    { "title": "Minerals Elite V", "model": "fine", "description": "Gourmet.", "category": "Food", "subCategory": "Restaurants", "tags": ["luxury"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=300" },
-    { "title": "Grill Nation Buf", "model": "fire", "description": "Unlimited.", "category": "Food", "subCategory": "Restaurants", "tags": ["grill"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300" },
-    { "title": "Exotica View Sp", "model": "roof", "description": "Hill view.", "category": "Food", "subCategory": "Restaurants", "tags": ["view"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=300" },
-    { "title": "Sarvi Kabab Mix", "model": "kabab", "description": "Tender meats.", "category": "Food", "subCategory": "Restaurants", "tags": ["kabab"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300" },
-    { "title": "Special Dum Mix", "model": "rice", "description": "Tradition.", "category": "Food", "subCategory": "Dishes", "tags": ["meat"], "rating": 5.0, "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300" },
-    { "title": "Butter Chic Pro V", "model": "curry", "description": "Rich spice.", "category": "Food", "subCategory": "Dishes", "tags": ["gravy"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=300" },
-    { "title": "Ghee Dosa Large", "model": "dosa", "description": "Thin crispy.", "category": "Food", "subCategory": "Dishes", "tags": ["veg"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=300" },
-    { "title": "Paneer Fire Pro", "model": "cheese", "description": "Smoky.", "category": "Food", "subCategory": "Dishes", "tags": ["veg"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=300" },
-    { "title": "Chic 65 Special V", "model": "hot", "description": "Spiced fry.", "category": "Food", "subCategory": "Dishes", "tags": ["fry"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=300" },
-    { "title": "Double Desert Pro", "model": "sweet", "description": "Sweet bread.", "category": "Food", "subCategory": "Dishes", "tags": ["sweet"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=300" },
-    { "title": "Prawn Tandoor V", "model": "prawn", "description": "Soft spicy.", "category": "Food", "subCategory": "Dishes", "tags": ["fish"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=300" },
-    { "title": "Saffron Haleem V", "model": "meat", "description": "Pure Hyd.", "category": "Food", "subCategory": "Dishes", "tags": ["rich"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=300" },
-    { "title": "Lamb Seekh Pro", "model": "grill", "description": "Minced spiced.", "category": "Food", "subCategory": "Dishes", "tags": ["grill"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300" },
-    { "title": "Apricot Qubani V", "model": "apricot", "description": "Royal Hyd.", "category": "Food", "subCategory": "Dishes", "tags": ["sweet"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=300" },
-    { "title": "Home Dum Pro", "model": "cook", "description": "Family rice.", "category": "Food", "subCategory": "Recipes", "tags": ["cook"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1512058560366-9bb391f7a1e7?q=80&w=300" },
-    { "title": "Red Pasta Mix", "model": "pasta", "description": "Tangy spice.", "category": "Food", "subCategory": "Recipes", "tags": ["italian"], "rating": 4.5, "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=300" },
-    { "title": "Green Salad Mix", "model": "salad", "description": "Pure healthy.", "category": "Food", "subCategory": "Recipes", "tags": ["diet"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=300" },
-    { "title": "Vegan Burger V", "model": "vegan", "description": "Plant style.", "category": "Food", "subCategory": "Recipes", "tags": ["vegan"], "rating": 4.4, "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=300" },
-    { "title": "Berry Acai Mix", "model": "fruit", "description": "Morn bowl.", "category": "Food", "subCategory": "Recipes", "tags": ["breakfast"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=300" },
-    { "title": "Ribeye Steak V", "model": "steak", "description": "Medium rare.", "category": "Food", "subCategory": "Recipes", "tags": ["meat"], "rating": 4.9, "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300" },
-    { "title": "Street Taco Mix", "model": "taco", "description": "Spicy shell.", "category": "Food", "subCategory": "Recipes", "tags": ["mexican"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=300" },
-    { "title": "Shoyu Ramen Elite", "model": "ramen", "description": "Pure broth.", "category": "Food", "subCategory": "Recipes", "tags": ["japanese"], "rating": 4.8, "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=300" },
-    { "title": "Bowl Comfort Mix", "model": "heart", "description": "Soup joy.", "category": "Food", "subCategory": "Recipes", "tags": ["warm"], "rating": 4.6, "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=300" },
-    { "title": "Egg Fried Rice V", "model": "rice", "description": "Fast wok.", "category": "Food", "subCategory": "Recipes", "tags": ["chinese"], "rating": 4.7, "imageUrl": "https://images.unsplash.com/photo-1512058560366-9bb391f7a1e7?q=80&w=300" }
+    {
+      "title": "Baahubali 2",
+      "model": "sword",
+      "description": "Epic saga conclusion.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "epic",
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "RRR",
+      "model": "fire",
+      "description": "Legendary revolution.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Kalki 2898 AD",
+      "model": "scifi",
+      "description": "Dystopian future.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Pushpa",
+      "model": "truck",
+      "description": "Red sandalwood smuggling.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Jersey",
+      "model": "bat",
+      "description": "Inspirational cricket journey.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "sports"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Eega",
+      "model": "fly",
+      "description": "Housefly revenge.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "fantasy"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Mahanati",
+      "model": "bio",
+      "description": "Life of Savitri.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Rangasthalam",
+      "model": "village",
+      "description": "Rural revenge saga.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Magadheera",
+      "model": "warrior",
+      "description": "Reincarnation epic.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Salaar",
+      "model": "crime",
+      "description": "Underworld ceasefire.",
+      "category": "Movies",
+      "subCategory": "Telugu",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Dangal",
+      "model": "medal",
+      "description": "Wrestling for gold.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "sports"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "3 Idiots",
+      "model": "book",
+      "description": "Creative education.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "comedy"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Sholay",
+      "model": "horse",
+      "description": "Dacoit action classic.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Lagaan",
+      "model": "bat",
+      "description": "Cricket against tax.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "PK",
+      "model": "ufo",
+      "description": "Alien social satire.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Drishyam",
+      "model": "mask",
+      "description": "Protection mystery.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "thriller"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Swades",
+      "model": "bulb",
+      "description": "Returning home.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "social"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Andhadhun",
+      "model": "piano",
+      "description": "Blind pianist mystery.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "thriller"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Chak De India",
+      "model": "hockey",
+      "description": "India hockey pride.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "sports"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Dil Chahta Hai",
+      "model": "beach",
+      "description": "Modern friendship.",
+      "category": "Movies",
+      "subCategory": "Hindi",
+      "tags": [
+        "romance"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "The Godfather",
+      "model": "rose",
+      "description": "Crime masterpiece.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "crime"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "The Dark Knight",
+      "model": "bat",
+      "description": "Batman tragedy.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Inception",
+      "model": "top",
+      "description": "Dream heist.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Pulp Fiction",
+      "model": "gun",
+      "description": "Non-linear crime.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "crime"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Matrix",
+      "model": "code",
+      "description": "Simulation world.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Interstellar",
+      "model": "ship",
+      "description": "Time travel space.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Fight Club",
+      "model": "soap",
+      "description": "Internal struggle.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "The Lord of the Rings",
+      "model": "ring",
+      "description": "Fantasy epic.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "fantasy"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Shawshank Redemption",
+      "model": "hammer",
+      "description": "Prison hope.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Joker",
+      "model": "mask",
+      "description": "Rise of madness.",
+      "category": "Movies",
+      "subCategory": "English",
+      "tags": [
+        "psychological"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=300"
+    },
+    {
+      "title": "Stranger Things",
+      "model": "bike",
+      "description": "Upside down mystery.",
+      "category": "Web Series",
+      "subCategory": "Sci-Fi",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Money Heist",
+      "model": "mask",
+      "description": "Bank robbery saga.",
+      "category": "Web Series",
+      "subCategory": "Crime",
+      "tags": [
+        "thriller"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Dark",
+      "model": "knot",
+      "description": "Time travel loops.",
+      "category": "Web Series",
+      "subCategory": "Thriller",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "The Boys",
+      "model": "hero",
+      "description": "Evil superheroes.",
+      "category": "Web Series",
+      "subCategory": "Action",
+      "tags": [
+        "dark"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Narcos",
+      "model": "drugs",
+      "description": "Cartel rise.",
+      "category": "Web Series",
+      "subCategory": "Biographical",
+      "tags": [
+        "crime"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Squid Game",
+      "model": "game",
+      "description": "Deadly survival.",
+      "category": "Web Series",
+      "subCategory": "Thriller",
+      "tags": [
+        "survival"
+      ],
+      "rating": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "The Bear",
+      "model": "kitchen",
+      "description": "Chef drama.",
+      "category": "Web Series",
+      "subCategory": "Drama",
+      "tags": [
+        "emotional"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Succession",
+      "model": "office",
+      "description": "Family empire.",
+      "category": "Web Series",
+      "subCategory": "Drama",
+      "tags": [
+        "power"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "The Office",
+      "model": "desk",
+      "description": "Cubicle comedy.",
+      "category": "Web Series",
+      "subCategory": "Comedy",
+      "tags": [
+        "social"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "Chernobyl",
+      "model": "hazard",
+      "description": "Disaster investigation.",
+      "category": "Web Series",
+      "subCategory": "Historical",
+      "tags": [
+        "drama"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?q=80&w=300"
+    },
+    {
+      "title": "One Piece",
+      "model": "hat",
+      "description": "Great pirate journey.",
+      "category": "Anime",
+      "subCategory": "Action",
+      "tags": [
+        "adventure"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Attack on Titan",
+      "model": "wall",
+      "description": "Survive the giants.",
+      "category": "Anime",
+      "subCategory": "Thriller",
+      "tags": [
+        "dark"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Naruto Shippuden",
+      "model": "scroll",
+      "description": "Ninja path.",
+      "category": "Anime",
+      "subCategory": "Action",
+      "tags": [
+        "battle"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Fullmetal Alchemist",
+      "model": "arm",
+      "description": "Alchemy cost.",
+      "category": "Anime",
+      "subCategory": "Adventure",
+      "tags": [
+        "magic"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Death Note",
+      "model": "note",
+      "description": "God of new world.",
+      "category": "Anime",
+      "subCategory": "Psychological",
+      "tags": [
+        "thriller"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Demon Slayer",
+      "model": "sword",
+      "description": "Exterminating demons.",
+      "category": "Anime",
+      "subCategory": "Action",
+      "tags": [
+        "art"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Jujutsu Kaisen",
+      "model": "finger",
+      "description": "Cursed spirits.",
+      "category": "Anime",
+      "subCategory": "Action",
+      "tags": [
+        "battle"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Hunter x Hunter",
+      "model": "rod",
+      "description": "Gon's finding.",
+      "category": "Anime",
+      "subCategory": "Adventure",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Steins Gate",
+      "model": "phone",
+      "description": "Time travel choice.",
+      "category": "Anime",
+      "subCategory": "Sci-Fi",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Haikyuu",
+      "model": "ball",
+      "description": "Volleyball elite.",
+      "category": "Anime",
+      "subCategory": "Sports",
+      "tags": [
+        "inspirational"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=300"
+    },
+    {
+      "title": "Elden Ring",
+      "model": "ring",
+      "description": "Shatter the Ring.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "rpg"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "Valorant",
+      "model": "ability",
+      "description": "Strategic shooter.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "fps"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=300"
+    },
+    {
+      "title": "Minecraft",
+      "model": "pick",
+      "description": "Survival build.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "creative"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "model": "chip",
+      "description": "Future dystopia.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "The Witcher 3",
+      "model": "wolf",
+      "description": "Geralt's hunt.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "rpg"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "CS:GO 2",
+      "model": "gun",
+      "description": "Classic shooter.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "fps"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1542751128-1738b0ee2b59?q=80&w=300"
+    },
+    {
+      "title": "God of War",
+      "model": "axe",
+      "description": "Myth and father.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "Red Dead 2",
+      "model": "hat",
+      "description": "Outlaw legend.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "adventure"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "Roblox",
+      "model": "cube",
+      "description": "User world.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "social"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=300"
+    },
+    {
+      "title": "Stardew Valley",
+      "model": "hoe",
+      "description": "Farming life.",
+      "category": "Games",
+      "subCategory": "PC games",
+      "tags": [
+        "casual"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300"
+    },
+    {
+      "title": "PUBG Mobile",
+      "model": "helmet",
+      "description": "Survival royal.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=300"
+    },
+    {
+      "title": "Free Fire",
+      "model": "parachute",
+      "description": "Elite survival.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "survival"
+      ],
+      "rating": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1610427649528-76c8cba0c97d?q=80&w=300"
+    },
+    {
+      "title": "Candy Crush",
+      "model": "star",
+      "description": "Sweet match.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "puzzle"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300"
+    },
+    {
+      "title": "Clash of Clans",
+      "model": "base",
+      "description": "Village war.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "strategy"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1614210037805-4c6e93245453?q=80&w=300"
+    },
+    {
+      "title": "Among Us",
+      "model": "crew",
+      "description": "Imposter task.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "social"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=300"
+    },
+    {
+      "title": "Subway Surfers",
+      "model": "shoes",
+      "description": "Infinite run.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "run"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1614210037805-4c6e93245453?q=80&w=300"
+    },
+    {
+      "title": "Call of Duty M",
+      "model": "gun",
+      "description": "War mobile.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "fps"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=300"
+    },
+    {
+      "title": "Pokemon Go",
+      "model": "ball",
+      "description": "AR hunt.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "ar"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=300"
+    },
+    {
+      "title": "Ludo King",
+      "model": "dice",
+      "description": "Casual classic.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "board"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1534067783941-51c9c23eccfd?q=80&w=300"
+    },
+    {
+      "title": "Angry Birds",
+      "model": "bird",
+      "description": "Sling shot.",
+      "category": "Games",
+      "subCategory": "Mobile games",
+      "tags": [
+        "casual"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1610427649528-76c8cba0c97d?q=80&w=300"
+    },
+    {
+      "title": "Half Life Alyx",
+      "model": "glove",
+      "description": "VR peak.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300"
+    },
+    {
+      "title": "Beat Saber",
+      "model": "saber",
+      "description": "Neon rhythm.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "music"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300"
+    },
+    {
+      "title": "Superhot VR",
+      "model": "time",
+      "description": "Freeze action.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300"
+    },
+    {
+      "title": "Resident Evil VR",
+      "model": "eye",
+      "description": "Survival fear.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "horror"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300"
+    },
+    {
+      "title": "Pavlov VR",
+      "model": "sniper",
+      "description": "VR shooter.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "fps"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300"
+    },
+    {
+      "title": "The Climb",
+      "model": "rope",
+      "description": "Extreme reach.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "sports"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300"
+    },
+    {
+      "title": "Arizona Sunshine",
+      "model": "sun",
+      "description": "Zombie desert.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "action"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300"
+    },
+    {
+      "title": "Boneworks",
+      "model": "phys",
+      "description": "Physics portal.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "scifi"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=300"
+    },
+    {
+      "title": "Blade Sorcery",
+      "model": "sword",
+      "description": "Magic combat.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "fantasy"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?q=80&w=300"
+    },
+    {
+      "title": "Astro Bot",
+      "model": "bot",
+      "description": "Robot rescue.",
+      "category": "Games",
+      "subCategory": "VR games",
+      "tags": [
+        "platformer"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?q=80&w=300"
+    },
+    {
+      "title": "React Masterclass",
+      "model": "laptop",
+      "description": "Build modern Web.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "web"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300"
+    },
+    {
+      "title": "Python for Data",
+      "model": "snake",
+      "description": "Analytics path.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "python"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Next.js Elite",
+      "model": "stack",
+      "description": "Serverless dev.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "js"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300"
+    },
+    {
+      "title": "Rust Systems",
+      "model": "gear",
+      "description": "Safe coding.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "rust"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Cyber Security",
+      "model": "lock",
+      "description": "Defensive net.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "security"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Full Stack Java",
+      "model": "cup",
+      "description": "Enterprise apps.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "java"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300"
+    },
+    {
+      "title": "AI Fundamentals",
+      "model": "brain",
+      "description": "Neural nets.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "ai"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "DevOps Expert",
+      "model": "cloud",
+      "description": "CI/CD pipeline.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "cloud"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300"
+    },
+    {
+      "title": "IOS Swift Dev",
+      "model": "apple",
+      "description": "Mobile native.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "mobile"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "SQL Mastery",
+      "model": "db",
+      "description": "Query database.",
+      "category": "Courses",
+      "subCategory": "Coding courses",
+      "tags": [
+        "sql"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=300"
+    },
+    {
+      "title": "AWS Cloud Prax",
+      "model": "cloud",
+      "description": "Cloud basics.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "aws"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Ethical Hacking",
+      "model": "mask",
+      "description": "Pentesting intro.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "security"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Linux Mastery",
+      "model": "penguin",
+      "description": "Terminal power.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "linux"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Docker/K8s",
+      "model": "ship",
+      "description": "Containerize apps.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Blockchain Base",
+      "model": "link",
+      "description": "Web3 decentralized.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "crypto"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Machine Learning",
+      "model": "stat",
+      "description": "Prediction models.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "ai"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Networking 101",
+      "model": "hub",
+      "description": "TCP/IP layers.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "net"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "UI/UX Design",
+      "model": "pen",
+      "description": "Figma visuals.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "design"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "IoT Systems",
+      "model": "chip",
+      "description": "Arduino board.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "iot"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "NoSQL Database",
+      "model": "db",
+      "description": "MongoDB scale.",
+      "category": "Courses",
+      "subCategory": "Tech tutorials",
+      "tags": [
+        "db"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Public Speaking",
+      "model": "mic",
+      "description": "Conquer stage.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "soft"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Time Management",
+      "model": "clock",
+      "description": "Optimize hours.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "life"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Leadership Ace",
+      "model": "crown",
+      "description": "Lead teams.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "soft"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Personal Finance",
+      "model": "dollar",
+      "description": "Invest smart.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "money"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Creative Writing",
+      "model": "pen",
+      "description": "Story craft.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "creative"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Emotional Intel",
+      "model": "heart",
+      "description": "Understand self.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "life"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Negotiation Mastery",
+      "model": "hands",
+      "description": "Win deals.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "soft"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Yoga Wisdom",
+      "model": "lotus",
+      "description": "Mind body calm.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "health"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Productivity Hack",
+      "model": "lightning",
+      "description": "Deep work state.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "efficiency"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "GMAT Elite",
+      "model": "grad",
+      "description": "Higher studies.",
+      "category": "Courses",
+      "subCategory": "Skill development",
+      "tags": [
+        "academic"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=300"
+    },
+    {
+      "title": "Apple Watch Ultra",
+      "model": "watch",
+      "description": "Rugged fitness.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1544117518-2b0417812921?q=80&w=300"
+    },
+    {
+      "title": "Sony XM5",
+      "model": "headset",
+      "description": "Best ANC.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=300"
+    },
+    {
+      "title": "MacBook Air M3",
+      "model": "laptop",
+      "description": "Power portability.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1517336714460-d1b1661c4d7b?q=80&w=300"
+    },
+    {
+      "title": "iPad Pro OLED",
+      "model": "tablet",
+      "description": "Creative beast.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?q=80&w=300"
+    },
+    {
+      "title": "Samsung S24 Ultra",
+      "model": "phone",
+      "description": "AI flagship.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1610940840281-9979313ea59b?q=80&w=300"
+    },
+    {
+      "title": "iPhone 15 Pro",
+      "model": "phone",
+      "description": "Titanium build.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1621330396173-e41b1cafd17f?q=80&w=300"
+    },
+    {
+      "title": "DJI Mini 4 Pro",
+      "model": "drone",
+      "description": "Aerial vision.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?q=80&w=300"
+    },
+    {
+      "title": "PS5 Slim",
+      "model": "console",
+      "description": "4K gaming.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "gaming"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?q=80&w=300"
+    },
+    {
+      "title": "Asus ROG Ally",
+      "model": "handheld",
+      "description": "Portable PC.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "gaming"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=300"
+    },
+    {
+      "title": "Kindle Oasis",
+      "model": "eink",
+      "description": "Limitless read.",
+      "category": "Products",
+      "subCategory": "Gadgets",
+      "tags": [
+        "tech"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1512428559083-a4085603da80?q=80&w=300"
+    },
+    {
+      "title": "North Face Parka",
+      "model": "coat",
+      "description": "Winter warmth.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "fashion"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Nike Air Max",
+      "model": "shoes",
+      "description": "Walk air.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "shoes"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300"
+    },
+    {
+      "title": "Levi 501",
+      "model": "denim",
+      "description": "Original fit.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "pants"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Adidas Ultraboost",
+      "model": "foot",
+      "description": "Run fast.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "sports"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300"
+    },
+    {
+      "title": "Uniqlo Heattech",
+      "model": "base",
+      "description": "Thermal tech.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "comfort"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Patagonia Nano",
+      "model": "puffer",
+      "description": "Eco warmth.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "outdoor"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Ray Ban Wayfare",
+      "model": "shade",
+      "description": "Iconic look.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "accessory"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Gucci Belt",
+      "model": "logo",
+      "description": "Luxury icon.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "high"
+      ],
+      "rating": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Casio G-Shock",
+      "model": "clock",
+      "description": "Indestructible.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "watch"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1544117518-2b0417812921?q=80&w=300"
+    },
+    {
+      "title": "Zara Suit",
+      "model": "formal",
+      "description": "Sharp evening.",
+      "category": "Products",
+      "subCategory": "Clothes",
+      "tags": [
+        "professional"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=300"
+    },
+    {
+      "title": "Leather Wallet",
+      "model": "case",
+      "description": "Classic hide.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "style"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=300"
+    },
+    {
+      "title": "Silver Ring",
+      "model": "ring",
+      "description": "Minimal band.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "jewelry"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Silk Scarf",
+      "model": "wrap",
+      "description": "Soft floral.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "luxury"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Gold Necklace",
+      "model": "chain",
+      "description": "Fine 24k.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "jewelry"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Modern Backpack",
+      "model": "bag",
+      "description": "Urban commute.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "util"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Aviator shades",
+      "model": "glass",
+      "description": "Sky classic.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "shades"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Woolen Cap",
+      "model": "beanie",
+      "description": "Snug fit.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "warmth"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Pocket Square",
+      "model": "silk",
+      "description": "Suit accessory.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "formal"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Cufflinks Pro",
+      "model": "gem",
+      "description": "Wrist metal.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "formal"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Travel Pillow",
+      "model": "neck",
+      "description": "Plight ease.",
+      "category": "Products",
+      "subCategory": "Accessories",
+      "tags": [
+        "util"
+      ],
+      "rating": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1511499767350-a1590fdb2ca8?q=80&w=300"
+    },
+    {
+      "title": "Maldives Overwater",
+      "model": "beach",
+      "description": "Luxury reef.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "beach"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300"
+    },
+    {
+      "title": "Paris Louvre",
+      "model": "tower",
+      "description": "Art and love.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300"
+    },
+    {
+      "title": "Tokyo Shinjuku",
+      "model": "neon",
+      "description": "Future city.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=300"
+    },
+    {
+      "title": "Dubai Burj",
+      "model": "skyscraper",
+      "description": "Tallest view.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "desert"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=300"
+    },
+    {
+      "title": "Swiss Alps",
+      "model": "snow",
+      "description": "Alpine peak.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "mountain"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300"
+    },
+    {
+      "title": "Bali UBUD",
+      "model": "jungle",
+      "description": "Forest zen.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "tropical"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=300"
+    },
+    {
+      "title": "Rome Arena",
+      "model": "stone",
+      "description": "Colosseum hist.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "historic"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=300"
+    },
+    {
+      "title": "NYC Times Sq",
+      "model": "taxi",
+      "description": "Concrete jungle.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?q=80&w=300"
+    },
+    {
+      "title": "London Eye",
+      "model": "wheel",
+      "description": "Thames views.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?q=80&w=300"
+    },
+    {
+      "title": "Santorini Sun",
+      "model": "white",
+      "description": "Blue dome island.",
+      "category": "Travel",
+      "subCategory": "Tourist places",
+      "tags": [
+        "beach"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=300"
+    },
+    {
+      "title": "Louvre Virtual",
+      "model": "museum",
+      "description": "Art gallery tour.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "art"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300"
+    },
+    {
+      "title": "Space Station VR",
+      "model": "iss",
+      "description": "Orbit Earth.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "space"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=300"
+    },
+    {
+      "title": "Great Wall Map",
+      "model": "wall",
+      "description": "Ancient walk.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "history"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1508804185872-d1baad9b1eca?q=80&w=300"
+    },
+    {
+      "title": "Amazon Jungle 360",
+      "model": "river",
+      "description": "Rainforest trek.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "nature"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=300"
+    },
+    {
+      "title": "Eiffel Tower VR",
+      "model": "tower",
+      "description": "Paris breeze.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=300"
+    },
+    {
+      "title": "Mars Rover Cam",
+      "model": "rover",
+      "description": "Red planet tour.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "space"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=300"
+    },
+    {
+      "title": "Venice Gondola",
+      "model": "boat",
+      "description": "Canal journey.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "city"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=300"
+    },
+    {
+      "title": "Taj Mahal Virtual",
+      "model": "marble",
+      "description": "Palace of Love.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "heritage"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1564507592333-c60657eea523?q=80&w=300"
+    },
+    {
+      "title": "Safari Live 360",
+      "model": "lion",
+      "description": "Wild encounter.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "wildlife"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1516428943464-67f8a5a5f418?q=80&w=300"
+    },
+    {
+      "title": "Antarctica VR",
+      "model": "ice",
+      "description": "Frozen world.",
+      "category": "Travel",
+      "subCategory": "Virtual tours",
+      "tags": [
+        "cold"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=300"
+    },
+    {
+      "title": "Grand Canyon Pro",
+      "model": "canyon",
+      "description": "Red rock hike.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "trek"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300"
+    },
+    {
+      "title": "Everest Base Camp",
+      "model": "peak",
+      "description": "Roof of world.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "climb"
+      ],
+      "rating": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300"
+    },
+    {
+      "title": "Patagonia Trails",
+      "model": "glacier",
+      "description": "Wild South.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "trek"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300"
+    },
+    {
+      "title": "Inca Trail Trek",
+      "model": "ruins",
+      "description": "Machu Picchu.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "history"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1512411516584-90a604216853?q=80&w=300"
+    },
+    {
+      "title": "Sky Jump Elite",
+      "model": "plane",
+      "description": "NZ jump.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "jump"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300"
+    },
+    {
+      "title": "Sahara Biking Pro",
+      "model": "dune",
+      "description": "Desert ride.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "sand"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?q=80&w=300"
+    },
+    {
+      "title": "Ice Cave Walk",
+      "model": "ice",
+      "description": "Iceland trek.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "ice"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?q=80&w=300"
+    },
+    {
+      "title": "Banff Lake Tour",
+      "model": "lake",
+      "description": "Canoe trip.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "nature"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=300"
+    },
+    {
+      "title": "Barrier Reef Dive",
+      "model": "fish",
+      "description": "Undersea tour.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "dive"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=300"
+    },
+    {
+      "title": "Vertical Climb",
+      "model": "rock",
+      "description": "Yosemite wall.",
+      "category": "Travel",
+      "subCategory": "Adventure spots",
+      "tags": [
+        "rock"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=300"
+    },
+    {
+      "title": "Starboy Hit",
+      "model": "star",
+      "description": "The Weeknd.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Shape of You Mix",
+      "model": "heart",
+      "description": "Ed Sheeran.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Blinding Lights Pop",
+      "model": "light",
+      "description": "Synth pop.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "retro"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Believer Anthem",
+      "model": "fire",
+      "description": "Imagine Dragons.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "rock"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300"
+    },
+    {
+      "title": "Despacito Latin",
+      "model": "dance",
+      "description": "Summer hit.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "latin"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Stay Radio",
+      "model": "vibe",
+      "description": "Bieber hit.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Levitating Dance",
+      "model": "disco",
+      "description": "Dua Lipa.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "dance"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Flowers Vocal",
+      "model": "bloom",
+      "description": "Miley Cyrus.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Perfect Ballad Mix",
+      "model": "ring",
+      "description": "Acoustic.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "romantic"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Save Tears Pop",
+      "model": "tear",
+      "description": "80s vibe.",
+      "category": "Music",
+      "subCategory": "Songs",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Lo-Fi Study Mix",
+      "model": "coffee",
+      "description": "Ambient beats.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "relax"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300"
+    },
+    {
+      "title": "Global Top 50",
+      "model": "chart",
+      "description": "Global hits.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "hot"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Rock Legends Mix",
+      "model": "guitar",
+      "description": "True rock.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "classic"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300"
+    },
+    {
+      "title": "Pure Focus Mix",
+      "model": "brain",
+      "description": "Ambient mood.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "focus"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300"
+    },
+    {
+      "title": "Workout List",
+      "model": "gym",
+      "description": "High energy.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "energy"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=300"
+    },
+    {
+      "title": "Midnight Jazz Mix",
+      "model": "sax",
+      "description": "Smooth mood.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "chill"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=300"
+    },
+    {
+      "title": "Relaxing Mix List",
+      "model": "cloud",
+      "description": "Home relax.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "chill"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=300"
+    },
+    {
+      "title": "Urban Rap Mix",
+      "model": "chain",
+      "description": "New beats.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "rap"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Future EDM Mix",
+      "model": "plug",
+      "description": "Modern EDM.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "edm"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "K-Pop Rising Mix",
+      "model": "heart",
+      "description": "Seoul pop.",
+      "category": "Music",
+      "subCategory": "Playlists",
+      "tags": [
+        "kpop"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Abel Music Star",
+      "model": "face",
+      "description": "R&B Star.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "rnb"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Swift Collection V",
+      "model": "pop",
+      "description": "Global pop.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Champagne Papi V",
+      "model": "owl",
+      "description": "The Boy.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "rap"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Ariana G Diva V",
+      "model": "tail",
+      "description": "Top vocals.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Reggaeton Elite V",
+      "model": "latin",
+      "description": "Latin chart.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "latin"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Beyoncé Queen Mix",
+      "model": "bee",
+      "description": "Queen Bee.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "pop"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Post Malone Hits V",
+      "model": "ink",
+      "description": "Pop fusion.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "hiphop"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Billie E. Style V",
+      "model": "green",
+      "description": "Indie pop.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "alt"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=300"
+    },
+    {
+      "title": "Coldplay Arena V",
+      "model": "globe",
+      "description": "Brit rock.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "rock"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1459749411177-042180ce673c?q=80&w=300"
+    },
+    {
+      "title": "Travis Scott Ast V",
+      "model": "astroworld",
+      "description": "Trap star.",
+      "category": "Music",
+      "subCategory": "Artists",
+      "tags": [
+        "rap"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?q=80&w=300"
+    },
+    {
+      "title": "Paradise Dyn. Mix",
+      "model": "plate",
+      "description": "Hyd Biryani.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "biryani"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300"
+    },
+    {
+      "title": "Bawarchi Pot Mix",
+      "model": "pot",
+      "description": "Real Biryani.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "biryani"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300"
+    },
+    {
+      "title": "Pista House Elite",
+      "model": "haleem",
+      "description": "World Haleem.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "tradition"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=300"
+    },
+    {
+      "title": "Café Irani Tea",
+      "model": "cup",
+      "description": "Classic Tea.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "cafe"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=300"
+    },
+    {
+      "title": "Shah Mutton Sp",
+      "model": "grill",
+      "description": "Spiced meat.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "nonveg"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300"
+    },
+    {
+      "title": "Chutneys South Bo",
+      "model": "tray",
+      "description": "South Indian.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "veg"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=300"
+    },
+    {
+      "title": "Minerals Elite V",
+      "model": "fine",
+      "description": "Gourmet.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "luxury"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=300"
+    },
+    {
+      "title": "Grill Nation Buf",
+      "model": "fire",
+      "description": "Unlimited.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "grill"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300"
+    },
+    {
+      "title": "Exotica View Sp",
+      "model": "roof",
+      "description": "Hill view.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "view"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=300"
+    },
+    {
+      "title": "Sarvi Kabab Mix",
+      "model": "kabab",
+      "description": "Tender meats.",
+      "category": "Food",
+      "subCategory": "Restaurants",
+      "tags": [
+        "kabab"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300"
+    },
+    {
+      "title": "Special Dum Mix",
+      "model": "rice",
+      "description": "Tradition.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "meat"
+      ],
+      "rating": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1589302168068-d64e93c17409?q=80&w=300"
+    },
+    {
+      "title": "Butter Chic Pro V",
+      "model": "curry",
+      "description": "Rich spice.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "gravy"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=300"
+    },
+    {
+      "title": "Ghee Dosa Large",
+      "model": "dosa",
+      "description": "Thin crispy.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "veg"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1516684732162-798a0062be99?q=80&w=300"
+    },
+    {
+      "title": "Paneer Fire Pro",
+      "model": "cheese",
+      "description": "Smoky.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "veg"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=300"
+    },
+    {
+      "title": "Chic 65 Special V",
+      "model": "hot",
+      "description": "Spiced fry.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "fry"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=300"
+    },
+    {
+      "title": "Double Desert Pro",
+      "model": "sweet",
+      "description": "Sweet bread.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "sweet"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=300"
+    },
+    {
+      "title": "Prawn Tandoor V",
+      "model": "prawn",
+      "description": "Soft spicy.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "fish"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=300"
+    },
+    {
+      "title": "Saffron Haleem V",
+      "model": "meat",
+      "description": "Pure Hyd.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "rich"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=300"
+    },
+    {
+      "title": "Lamb Seekh Pro",
+      "model": "grill",
+      "description": "Minced spiced.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "grill"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300"
+    },
+    {
+      "title": "Apricot Qubani V",
+      "model": "apricot",
+      "description": "Royal Hyd.",
+      "category": "Food",
+      "subCategory": "Dishes",
+      "tags": [
+        "sweet"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=300"
+    },
+    {
+      "title": "Home Dum Pro",
+      "model": "cook",
+      "description": "Family rice.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "cook"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1512058560366-9bb391f7a1e7?q=80&w=300"
+    },
+    {
+      "title": "Red Pasta Mix",
+      "model": "pasta",
+      "description": "Tangy spice.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "italian"
+      ],
+      "rating": 4.5,
+      "imageUrl": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=300"
+    },
+    {
+      "title": "Green Salad Mix",
+      "model": "salad",
+      "description": "Pure healthy.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "diet"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=300"
+    },
+    {
+      "title": "Vegan Burger V",
+      "model": "vegan",
+      "description": "Plant style.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "vegan"
+      ],
+      "rating": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=300"
+    },
+    {
+      "title": "Berry Acai Mix",
+      "model": "fruit",
+      "description": "Morn bowl.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "breakfast"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=300"
+    },
+    {
+      "title": "Ribeye Steak V",
+      "model": "steak",
+      "description": "Medium rare.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "meat"
+      ],
+      "rating": 4.9,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=300"
+    },
+    {
+      "title": "Street Taco Mix",
+      "model": "taco",
+      "description": "Spicy shell.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "mexican"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?q=80&w=300"
+    },
+    {
+      "title": "Shoyu Ramen Elite",
+      "model": "ramen",
+      "description": "Pure broth.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "japanese"
+      ],
+      "rating": 4.8,
+      "imageUrl": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?q=80&w=300"
+    },
+    {
+      "title": "Bowl Comfort Mix",
+      "model": "heart",
+      "description": "Soup joy.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "warm"
+      ],
+      "rating": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=300"
+    },
+    {
+      "title": "Egg Fried Rice V",
+      "model": "rice",
+      "description": "Fast wok.",
+      "category": "Food",
+      "subCategory": "Recipes",
+      "tags": [
+        "chinese"
+      ],
+      "rating": 4.7,
+      "imageUrl": "https://images.unsplash.com/photo-1512058560366-9bb391f7a1e7?q=80&w=300"
+    }
   ]
 }

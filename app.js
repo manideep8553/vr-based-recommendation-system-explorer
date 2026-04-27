@@ -168,7 +168,7 @@ function spawnImmersivePanel(item, x, y, z, container) {
 
   const rating = document.createElement('a-text');
   rating.setAttribute('value', `${item.rating} ⭐`); rating.setAttribute('color', '#f1c40f'); 
-  rating.setAttribute('align', 'center'); rating.setAttribute('position', '0 -1.0 0.03'); title.setAttribute('width', '3');
+  rating.setAttribute('align', 'center'); rating.setAttribute('position', '0 -1.0 0.03'); rating.setAttribute('width', '3');
   panel.appendChild(rating);
 
   const desc = document.createElement('a-text');
